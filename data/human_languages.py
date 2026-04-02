@@ -1,418 +1,1864 @@
-dataset = {
+human_languages_short =  {
 
-    "human_languages": {
+    "english": [
+        "The quick brown fox jumps over the lazy dog.",
+        "AI is transforming how humans interact with technology.",
+        "Tokenization is a crucial step in natural language processing.",
+        "Numbers like 12345 and symbols like %$# should be handled properly."
+    ],
 
-        "english": [
-            "The quick brown fox jumps over the lazy dog.",
-            "AI is transforming how humans interact with technology.",
-            "Tokenization is a crucial step in natural language processing.",
-            "Numbers like 12345 and symbols like %$# should be handled properly."
-        ],
+    "hindi": [
+        "कृत्रिम बुद्धिमत्ता दुनिया को तेजी से बदल रही है।",
+        "मुझे नई तकनीकों के बारे में सीखना पसंद है।",
+        "यह एक परीक्षण वाक्य है जिसमें विभिन्न शब्द शामिल हैं।",
+        "संख्या १२३४५ और प्रतीक @#! का सही उपयोग होना चाहिए।"
+    ],
 
-        "hindi": [
-            "कृत्रिम बुद्धिमत्ता दुनिया को तेजी से बदल रही है।",
-            "मुझे नई तकनीकों के बारे में सीखना पसंद है।",
-            "यह एक परीक्षण वाक्य है जिसमें विभिन्न शब्द शामिल हैं।",
-            "संख्या १२३४५ और प्रतीक @#! का सही उपयोग होना चाहिए।"
-        ],
+    "spanish": [
+        "La inteligencia artificial está cambiando el mundo rápidamente.",
+        "Me gusta aprender sobre nuevas tecnologías.",
+        "Este es un ejemplo de oración para pruebas.",
+        "Los números 12345 y símbolos deben manejarse correctamente."
+    ],
 
-        "spanish": [
-            "La inteligencia artificial está cambiando el mundo rápidamente.",
-            "Me gusta aprender sobre nuevas tecnologías.",
-            "Este es un ejemplo de oración para pruebas.",
-            "Los números 12345 y símbolos deben manejarse correctamente."
-        ],
+    "chinese_simplified": [
+        "人工智能正在迅速改变世界。",
+        "我喜欢学习新技术。",
+        "这是一个用于测试的句子。",
+        "数字12345和符号需要正确处理。"
+    ],
 
-        "chinese_simplified": [
-            "人工智能正在迅速改变世界。",
-            "我喜欢学习新技术。",
-            "这是一个用于测试的句子。",
-            "数字12345和符号需要正确处理。"
-        ],
+    "arabic": [
+        "الذكاء الاصطناعي يغير العالم بسرعة.",
+        "أحب تعلم التقنيات الجديدة.",
+        "هذه جملة اختبار تحتوي على كلمات مختلفة.",
+        "يجب التعامل مع الأرقام 12345 والرموز بشكل صحيح."
+    ],
 
-        "arabic": [
-            "الذكاء الاصطناعي يغير العالم بسرعة.",
-            "أحب تعلم التقنيات الجديدة.",
-            "هذه جملة اختبار تحتوي على كلمات مختلفة.",
-            "يجب التعامل مع الأرقام 12345 والرموز بشكل صحيح."
-        ],
+    "russian": [
+        "Искусственный интеллект быстро меняет мир.",
+        "Мне нравится изучать новые технологии.",
+        "Это тестовое предложение для проверки.",
+        "Числа 12345 и символы должны обрабатываться правильно."
+    ],
 
-        "russian": [
-            "Искусственный интеллект быстро меняет мир.",
-            "Мне нравится изучать новые технологии.",
-            "Это тестовое предложение для проверки.",
-            "Числа 12345 и символы должны обрабатываться правильно."
-        ],
+    "tamil": [
+        "செயற்கை நுண்ணறிவு உலகை வேகமாக மாற்றுகிறது.",
+        "எனக்கு புதிய தொழில்நுட்பங்களை கற்றுக்கொள்ள விருப்பம் உள்ளது.",
+        "இது ஒரு சோதனை வாக்கியம்.",
+        "எண்கள் 12345 மற்றும் குறியீடுகள் சரியாக கையாளப்பட வேண்டும்."
+    ],
 
-        "tamil": [
-            "செயற்கை நுண்ணறிவு உலகை வேகமாக மாற்றுகிறது.",
-            "எனக்கு புதிய தொழில்நுட்பங்களை கற்றுக்கொள்ள விருப்பம் உள்ளது.",
-            "இது ஒரு சோதனை வாக்கியம்.",
-            "எண்கள் 12345 மற்றும் குறியீடுகள் சரியாக கையாளப்பட வேண்டும்."
-        ],
+    "french": [
+        "L'intelligence artificielle transforme rapidement le monde.",
+        "J'aime apprendre de nouvelles technologies.",
+        "Ceci est une phrase de test.",
+        "Les nombres 12345 et les symboles doivent être correctement traités."
+    ],
 
-        "french": [
-            "L'intelligence artificielle transforme rapidement le monde.",
-            "J'aime apprendre de nouvelles technologies.",
-            "Ceci est une phrase de test.",
-            "Les nombres 12345 et les symboles doivent être correctement traités."
-        ],
+    "mixed_multilingual": [
+        "AI is transforming दुनिया 世界 بسرعة.",
+        "Hello नमस्ते 你好 مرحبا",
+        "Data + डेटा + 数据 combined test.",
+        "English123 हिंदी456 中文789"
+    ],
 
-        "mixed_multilingual": [
-            "AI is transforming दुनिया 世界 بسرعة.",
-            "Hello नमस्ते 你好 مرحبا",
-            "Data + डेटा + 数据 combined test.",
-            "English123 हिंदी456 中文789"
-        ],
+    "bengali": [
+        "কৃত্রিম বুদ্ধিমত্তা দ্রুত বিশ্বকে পরিবর্তন করছে।",
+        "আমি নতুন প্রযুক্তি শিখতে ভালোবাসি।",
+        "এটি একটি পরীক্ষামূলক বাক্য।",
+        "সংখ্যা ১২৩৪৫ এবং প্রতীক সঠিকভাবে ব্যবহার করা উচিত।"
+    ],
 
-        "bengali": [
-            "কৃত্রিম বুদ্ধিমত্তা দ্রুত বিশ্বকে পরিবর্তন করছে।",
-            "আমি নতুন প্রযুক্তি শিখতে ভালোবাসি।",
-            "এটি একটি পরীক্ষামূলক বাক্য।",
-            "সংখ্যা ১২৩৪৫ এবং প্রতীক সঠিকভাবে ব্যবহার করা উচিত।"
-        ],
+    "urdu": [
+        "مصنوعی ذہانت دنیا کو تیزی سے بدل رہی ہے۔",
+        "مجھے نئی ٹیکنالوجی سیکھنا پسند ہے۔",
+        "یہ ایک ٹیسٹ جملہ ہے۔",
+        "اعداد 12345 اور علامات کو درست طریقے سے سنبھالنا چاہیے۔"
+    ],
 
-        "urdu": [
-            "مصنوعی ذہانت دنیا کو تیزی سے بدل رہی ہے۔",
-            "مجھے نئی ٹیکنالوجی سیکھنا پسند ہے۔",
-            "یہ ایک ٹیسٹ جملہ ہے۔",
-            "اعداد 12345 اور علامات کو درست طریقے سے سنبھالنا چاہیے۔"
-        ],
+    "japanese": [
+        "人工知能は世界を急速に変えています。",
+        "私は新しい技術を学ぶのが好きです。",
+        "これはテスト用の文です。",
+        "数字12345と記号を正しく処理する必要があります。"
+    ],
 
-        "japanese": [
-            "人工知能は世界を急速に変えています。",
-            "私は新しい技術を学ぶのが好きです。",
-            "これはテスト用の文です。",
-            "数字12345と記号を正しく処理する必要があります。"
-        ],
+    "korean": [
+        "인공지능은 세상을 빠르게 변화시키고 있습니다.",
+        "나는 새로운 기술을 배우는 것을 좋아합니다.",
+        "이것은 테스트 문장입니다.",
+        "숫자 12345와 기호를 올바르게 처리해야 합니다."
+    ],
 
-        "korean": [
-            "인공지능은 세상을 빠르게 변화시키고 있습니다.",
-            "나는 새로운 기술을 배우는 것을 좋아합니다.",
-            "이것은 테스트 문장입니다.",
-            "숫자 12345와 기호를 올바르게 처리해야 합니다."
-        ],
+    "german": [
+        "Künstliche Intelligenz verändert die Welt schnell.",
+        "Ich lerne gerne neue Technologien.",
+        "Dies ist ein Testsatz.",
+        "Zahlen 12345 und Symbole müssen korrekt verarbeitet werden."
+    ],
 
-        "german": [
-            "Künstliche Intelligenz verändert die Welt schnell.",
-            "Ich lerne gerne neue Technologien.",
-            "Dies ist ein Testsatz.",
-            "Zahlen 12345 und Symbole müssen korrekt verarbeitet werden."
-        ],
+    "italian": [
+        "L'intelligenza artificiale sta cambiando rapidamente il mondo.",
+        "Mi piace imparare nuove tecnologie.",
+        "Questa è una frase di test.",
+        "I numeri 12345 devono essere gestiti correttamente."
+    ],
 
-        "italian": [
-            "L'intelligenza artificiale sta cambiando rapidamente il mondo.",
-            "Mi piace imparare nuove tecnologie.",
-            "Questa è una frase di test.",
-            "I numeri 12345 devono essere gestiti correttamente."
-        ],
+    "portuguese": [
+        "A inteligência artificial está mudando o mundo rapidamente.",
+        "Gosto de aprender novas tecnologias.",
+        "Esta é uma frase de teste.",
+        "Os números 12345 devem ser tratados corretamente."
+    ],
 
-        "portuguese": [
-            "A inteligência artificial está mudando o mundo rapidamente.",
-            "Gosto de aprender novas tecnologias.",
-            "Esta é uma frase de teste.",
-            "Os números 12345 devem ser tratados corretamente."
-        ],
+    "turkish": [
+        "Yapay zeka dünyayı hızla değiştiriyor.",
+        "Yeni teknolojileri öğrenmeyi seviyorum.",
+        "Bu bir test cümlesidir.",
+        "12345 sayıları doğru işlenmelidir."
+    ],
 
-        "turkish": [
-            "Yapay zeka dünyayı hızla değiştiriyor.",
-            "Yeni teknolojileri öğrenmeyi seviyorum.",
-            "Bu bir test cümlesidir.",
-            "12345 sayıları doğru işlenmelidir."
-        ],
+    "dutch": [
+        "Kunstmatige intelligentie verandert de wereld snel.",
+        "Ik leer graag nieuwe technologieën.",
+        "Dit is een testzin.",
+        "Getallen 12345 moeten correct worden verwerkt."
+    ],
 
-        "dutch": [
-            "Kunstmatige intelligentie verandert de wereld snel.",
-            "Ik leer graag nieuwe technologieën.",
-            "Dit is een testzin.",
-            "Getallen 12345 moeten correct worden verwerkt."
-        ],
+    "greek": [
+        "Η τεχνητή νοημοσύνη αλλάζει γρήγορα τον κόσμο.",
+        "Μου αρέσει να μαθαίνω νέες τεχνολογίες.",
+        "Αυτή είναι μια δοκιμαστική πρόταση.",
+        "Οι αριθμοί 12345 πρέπει να обработίζονται σωστά."
+    ],
 
-        "greek": [
-            "Η τεχνητή νοημοσύνη αλλάζει γρήγορα τον κόσμο.",
-            "Μου αρέσει να μαθαίνω νέες τεχνολογίες.",
-            "Αυτή είναι μια δοκιμαστική πρόταση.",
-            "Οι αριθμοί 12345 πρέπει να обработίζονται σωστά."
-        ],
+    "hebrew": [
+        "בינה מלאכותית משנה את העולם במהירות.",
+        "אני אוהב ללמוד טכנולוגיות חדשות.",
+        "זהו משפט בדיקה.",
+        "יש לטפל נכון במספרים 12345."
+    ],
 
-        "hebrew": [
-            "בינה מלאכותית משנה את העולם במהירות.",
-            "אני אוהב ללמוד טכנולוגיות חדשות.",
-            "זהו משפט בדיקה.",
-            "יש לטפל נכון במספרים 12345."
-        ],
+    "thai": [
+        "ปัญญาประดิษฐ์กำลังเปลี่ยนโลกอย่างรวดเร็ว",
+        "ฉันชอบเรียนรู้เทคโนโลยีใหม่",
+        "นี่คือประโยคทดสอบ",
+        "ตัวเลข 12345 ต้องได้รับการจัดการอย่างถูกต้อง"
+    ],
 
-        "thai": [
-            "ปัญญาประดิษฐ์กำลังเปลี่ยนโลกอย่างรวดเร็ว",
-            "ฉันชอบเรียนรู้เทคโนโลยีใหม่",
-            "นี่คือประโยคทดสอบ",
-            "ตัวเลข 12345 ต้องได้รับการจัดการอย่างถูกต้อง"
-        ],
+    "vietnamese": [
+        "Trí tuệ nhân tạo đang thay đổi thế giới nhanh chóng.",
+        "Tôi thích học công nghệ mới.",
+        "Đây là câu thử nghiệm.",
+        "Các số 12345 cần được xử lý đúng."
+    ],
 
-        "vietnamese": [
-            "Trí tuệ nhân tạo đang thay đổi thế giới nhanh chóng.",
-            "Tôi thích học công nghệ mới.",
-            "Đây là câu thử nghiệm.",
-            "Các số 12345 cần được xử lý đúng."
-        ],
+    "indonesian": [
+        "Kecerdasan buatan mengubah dunia dengan cepat.",
+        "Saya suka belajar teknologi baru.",
+        "Ini adalah kalimat uji.",
+        "Angka 12345 harus ditangani dengan benar."
+    ],
 
-        "indonesian": [
-            "Kecerdasan buatan mengubah dunia dengan cepat.",
-            "Saya suka belajar teknologi baru.",
-            "Ini adalah kalimat uji.",
-            "Angka 12345 harus ditangani dengan benar."
-        ],
+    "swahili": [
+        "Akili bandia inabadilisha dunia haraka.",
+        "Ninapenda kujifunza teknolojia mpya.",
+        "Hii ni sentensi ya majaribio.",
+        "Nambari 12345 zinapaswa kushughulikiwa vizuri."
+    ],
 
-        "swahili": [
-            "Akili bandia inabadilisha dunia haraka.",
-            "Ninapenda kujifunza teknolojia mpya.",
-            "Hii ni sentensi ya majaribio.",
-            "Nambari 12345 zinapaswa kushughulikiwa vizuri."
-        ],
+    "persian": [
+        "هوش مصنوعی به سرعت جهان را تغییر می‌دهد.",
+        "من دوست دارم فناوری‌های جدید یاد بگیرم.",
+        "این یک جمله آزمایشی است.",
+        "اعداد 12345 باید به درستی پردازش شوند."
+    ],
 
-        "persian": [
-            "هوش مصنوعی به سرعت جهان را تغییر می‌دهد.",
-            "من دوست دارم فناوری‌های جدید یاد بگیرم.",
-            "این یک جمله آزمایشی است.",
-            "اعداد 12345 باید به درستی پردازش شوند."
-        ],
+    "polish": [
+        "Sztuczna inteligencja szybko zmienia świat.",
+        "Lubię uczyć się nowych technologii.",
+        "To jest zdanie testowe.",
+        "Liczby 12345 powinny być poprawnie przetwarzane."
+    ],
 
-        "polish": [
-            "Sztuczna inteligencja szybko zmienia świat.",
-            "Lubię uczyć się nowych technologii.",
-            "To jest zdanie testowe.",
-            "Liczby 12345 powinny być poprawnie przetwarzane."
-        ],
+    "ukrainian": [
+        "Штучний інтелект швидко змінює світ.",
+        "Я люблю вивчати нові технології.",
+        "Це тестове речення.",
+        "Числа 12345 повинні оброблятися правильно."
+    ],
 
-        "ukrainian": [
-            "Штучний інтелект швидко змінює світ.",
-            "Я люблю вивчати нові технології.",
-            "Це тестове речення.",
-            "Числа 12345 повинні оброблятися правильно."
-        ],
+    "romanian": [
+        "Inteligența artificială schimbă rapid lumea.",
+        "Îmi place să învăț tehnologii noi.",
+        "Aceasta este o propoziție de test.",
+        "Numerele 12345 trebuie gestionate corect."
+    ],
 
-        "romanian": [
-            "Inteligența artificială schimbă rapid lumea.",
-            "Îmi place să învăț tehnologii noi.",
-            "Aceasta este o propoziție de test.",
-            "Numerele 12345 trebuie gestionate corect."
-        ],
+    "czech": [
+        "Umělá inteligence rychle mění svět.",
+        "Rád se učím nové technologie.",
+        "Toto je testovací věta.",
+        "Čísla 12345 musí být správně zpracována."
+    ],
 
-        "czech": [
-            "Umělá inteligence rychle mění svět.",
-            "Rád se učím nové technologie.",
-            "Toto je testovací věta.",
-            "Čísla 12345 musí být správně zpracována."
-        ],
+    "malay": [
+        "Kecerdasan buatan sedang mengubah dunia dengan cepat.",
+        "Saya suka mempelajari teknologi baru.",
+        "Ini adalah kalimat percobaan.",
+        "Angka 12345 harus diproses dengan benar."
+    ],
 
-        "malay": [
-            "Kecerdasan buatan sedang mengubah dunia dengan cepat.",
-            "Saya suka mempelajari teknologi baru.",
-            "Ini adalah kalimat percobaan.",
-            "Angka 12345 harus diproses dengan benar."
-        ],
+    "filipino": [
+        "Ang artificial intelligence ay mabilis na binabago ang mundo.",
+        "Gusto kong matuto ng mga bagong teknolohiya.",
+        "Ito ay isang test na pangungusap.",
+        "Ang mga numerong 12345 ay dapat maayos na hawakan."
+    ],
 
-        "filipino": [
-            "Ang artificial intelligence ay mabilis na binabago ang mundo.",
-            "Gusto kong matuto ng mga bagong teknolohiya.",
-            "Ito ay isang test na pangungusap.",
-            "Ang mga numerong 12345 ay dapat maayos na hawakan."
-        ],
+    "norwegian": [
+        "Kunstig intelligens endrer verden raskt.",
+        "Jeg liker å lære nye teknologier.",
+        "Dette er en testsetning.",
+        "Tallene 12345 må behandles riktig."
+    ],
 
-        "norwegian": [
-            "Kunstig intelligens endrer verden raskt.",
-            "Jeg liker å lære nye teknologier.",
-            "Dette er en testsetning.",
-            "Tallene 12345 må behandles riktig."
-        ],
+    "danish": [
+        "Kunstig intelligens ændrer verden hurtigt.",
+        "Jeg kan lide at lære nye teknologier.",
+        "Dette er en testsætning.",
+        "Tallene 12345 skal håndteres korrekt."
+    ],
 
-        "danish": [
-            "Kunstig intelligens ændrer verden hurtigt.",
-            "Jeg kan lide at lære nye teknologier.",
-            "Dette er en testsætning.",
-            "Tallene 12345 skal håndteres korrekt."
-        ],
+    "finnish": [
+        "Tekoäly muuttaa maailmaa nopeasti.",
+        "Pidän uusien teknologioiden oppimisesta.",
+        "Tämä on testilause.",
+        "Numerot 12345 tulee käsitellä oikein."
+    ],
 
-        "finnish": [
-            "Tekoäly muuttaa maailmaa nopeasti.",
-            "Pidän uusien teknologioiden oppimisesta.",
-            "Tämä on testilause.",
-            "Numerot 12345 tulee käsitellä oikein."
-        ],
+    "hungarian": [
+        "A mesterséges intelligencia gyorsan megváltoztatja a világot.",
+        "Szeretek új technológiákat tanulni.",
+        "Ez egy tesztmondat.",
+        "Az 12345 számokat megfelelően kell kezelni."
+    ],
 
-        "hungarian": [
-            "A mesterséges intelligencia gyorsan megváltoztatja a világot.",
-            "Szeretek új technológiákat tanulni.",
-            "Ez egy tesztmondat.",
-            "Az 12345 számokat megfelelően kell kezelni."
-        ],
+    "slovak": [
+        "Umelá inteligencia rýchlo mení svet.",
+        "Rád sa učím nové technológie.",
+        "Toto je testovacia veta.",
+        "Čísla 12345 musia byť správne spracované."
+    ],
 
-        "slovak": [
-            "Umelá inteligencia rýchlo mení svet.",
-            "Rád sa učím nové technológie.",
-            "Toto je testovacia veta.",
-            "Čísla 12345 musia byť správne spracované."
-        ],
+    "serbian": [
+        "Вештачка интелигенција брзо мења свет.",
+        "Волим да учим нове технологије.",
+        "Ово је тест реченица.",
+        "Бројеви 12345 морају бити правилно обрађени."
+    ],
 
-        "serbian": [
-            "Вештачка интелигенција брзо мења свет.",
-            "Волим да учим нове технологије.",
-            "Ово је тест реченица.",
-            "Бројеви 12345 морају бити правилно обрађени."
-        ],
+    "croatian": [
+        "Umjetna inteligencija brzo mijenja svijet.",
+        "Volim učiti nove tehnologije.",
+        "Ovo je testna rečenica.",
+        "Brojevi 12345 trebaju biti pravilno obrađeni."
+    ],
 
-        "croatian": [
-            "Umjetna inteligencija brzo mijenja svijet.",
-            "Volim učiti nove tehnologije.",
-            "Ovo je testna rečenica.",
-            "Brojevi 12345 trebaju biti pravilno obrađeni."
-        ],
+    "lithuanian": [
+        "Dirbtinis intelektas greitai keičia pasaulį.",
+        "Man patinka mokytis naujų technologijų.",
+        "Tai yra testinis sakinys.",
+        "Skaičiai 12345 turi būti tinkamai apdoroti."
+    ],
 
-        "lithuanian": [
-            "Dirbtinis intelektas greitai keičia pasaulį.",
-            "Man patinka mokytis naujų technologijų.",
-            "Tai yra testinis sakinys.",
-            "Skaičiai 12345 turi būti tinkamai apdoroti."
-        ],
+    "amharic": [
+        "የሰው ሠራሽ ብልህነት ዓለምን በፍጥነት እየቀየረ ነው።",
+        "አዲስ ቴክኖሎጂዎችን መማር እወዳለሁ።",
+        "ይህ የሙከራ ነገር ነው።",
+        "ቁጥሮች 12345 በትክክል መተካት አለባቸው።"
+    ],
 
-        "amharic": [
-            "የሰው ሠራሽ ብልህነት ዓለምን በፍጥነት እየቀየረ ነው።",
-            "አዲስ ቴክኖሎጂዎችን መማር እወዳለሁ።",
-            "ይህ የሙከራ ነገር ነው።",
-            "ቁጥሮች 12345 በትክክል መተካት አለባቸው።"
-        ],
+    "burmese": [
+        "ဉာဏ်ရည်တုသည် ကမ္ဘာကို မြန်ဆန်စွာ ပြောင်းလဲနေသည်။",
+        "နည်းပညာအသစ်များကို လေ့လာရတာကို ကြိုက်သည်။",
+        "ဤသည် စမ်းသပ်စာကြောင်းဖြစ်သည်။",
+        "နံပါတ် 12345 ကို မှန်ကန်စွာ ကိုင်တွယ်ရမည်။"
+    ],
 
-        "burmese": [
-            "ဉာဏ်ရည်တုသည် ကမ္ဘာကို မြန်ဆန်စွာ ပြောင်းလဲနေသည်။",
-            "နည်းပညာအသစ်များကို လေ့လာရတာကို ကြိုက်သည်။",
-            "ဤသည် စမ်းသပ်စာကြောင်းဖြစ်သည်။",
-            "နံပါတ် 12345 ကို မှန်ကန်စွာ ကိုင်တွယ်ရမည်။"
-        ],
+    "khmer": [
+        "បញ្ញាសិប្បនិម្មិតកំពុងផ្លាស់ប្តូរពិភពលោកយ៉ាងលឿន។",
+        "ខ្ញុំចូលចិត្តរៀនបច្ចេកវិទ្យាថ្មី។",
+        "នេះគឺជាប្រយោគសាកល្បង។",
+        "លេខ 12345 ត្រូវតែដំណើរការយ៉ាងត្រឹមត្រូវ។"
+    ],
 
-        "khmer": [
-            "បញ្ញាសិប្បនិម្មិតកំពុងផ្លាស់ប្តូរពិភពលោកយ៉ាងលឿន។",
-            "ខ្ញុំចូលចិត្តរៀនបច្ចេកវិទ្យាថ្មី។",
-            "នេះគឺជាប្រយោគសាកល្បង។",
-            "លេខ 12345 ត្រូវតែដំណើរការយ៉ាងត្រឹមត្រូវ។"
-        ],
+    "lao": [
+        "ປັນຍາປະດິດກໍາລັງປ່ຽນແປງໂລກຢ່າງໄວ.",
+        "ຂ້ອຍມັກຮຽນຮູ້ເຕັກໂນໂລຊີໃໝ່.",
+        "ນີ້ແມ່ນປະໂຫຍກທົດສອບ.",
+        "ເລກ 12345 ຕ້ອງຖືກຈັດການຢ່າງຖືກຕ້ອງ."
+    ],
 
-        "lao": [
-            "ປັນຍາປະດິດກໍາລັງປ່ຽນແປງໂລກຢ່າງໄວ.",
-            "ຂ້ອຍມັກຮຽນຮູ້ເຕັກໂນໂລຊີໃໝ່.",
-            "ນີ້ແມ່ນປະໂຫຍກທົດສອບ.",
-            "ເລກ 12345 ຕ້ອງຖືກຈັດການຢ່າງຖືກຕ້ອງ."
-        ],
+    "mongolian": [
+        "Хиймэл оюун ухаан дэлхийг хурдан өөрчилж байна.",
+        "Би шинэ технологи сурах дуртай.",
+        "Энэ бол туршилтын өгүүлбэр.",
+        "12345 тоог зөв боловсруулах хэрэгтэй."
+    ],
 
-        "mongolian": [
-            "Хиймэл оюун ухаан дэлхийг хурдан өөрчилж байна.",
-            "Би шинэ технологи сурах дуртай.",
-            "Энэ бол туршилтын өгүүлбэр.",
-            "12345 тоог зөв боловсруулах хэрэгтэй."
-        ],
+    "georgian": [
+        "ხელოვნური ინტელექტი სწრაფად ცვლის სამყაროს.",
+        "მე მიყვარს ახალი ტექნოლოგიების სწავლა.",
+        "ეს არის სატესტო წინადადება.",
+        "რიცხვები 12345 სწორად უნდა დამუშავდეს."
+    ],
 
-        "georgian": [
-            "ხელოვნური ინტელექტი სწრაფად ცვლის სამყაროს.",
-            "მე მიყვარს ახალი ტექნოლოგიების სწავლა.",
-            "ეს არის სატესტო წინადადება.",
-            "რიცხვები 12345 სწორად უნდა დამუშავდეს."
-        ],
+    "armenian": [
+        "Արհեստական բանականությունը արագ փոխում է աշխարհը։",
+        "Ես սիրում եմ սովորել նոր տեխնոլոգիաներ։",
+        "Սա թեստային նախադասություն է։",
+        "Թվերը 12345 պետք է ճիշտ մշակվեն։"
+    ],
 
-        "armenian": [
-            "Արհեստական բանականությունը արագ փոխում է աշխարհը։",
-            "Ես սիրում եմ սովորել նոր տեխնոլոգիաներ։",
-            "Սա թեստային նախադասություն է։",
-            "Թվերը 12345 պետք է ճիշտ մշակվեն։"
-        ],
+    "icelandic": [
+        "Gervigreind er að breyta heiminum hratt.",
+        "Mér finnst gaman að læra nýja tækni.",
+        "Þetta er prófunarsetning.",
+        "Tölurnar 12345 verða að vera rétt unnar."
+    ],
 
-        "icelandic": [
-            "Gervigreind er að breyta heiminum hratt.",
-            "Mér finnst gaman að læra nýja tækni.",
-            "Þetta er prófunarsetning.",
-            "Tölurnar 12345 verða að vera rétt unnar."
-        ],
+    "irish": [
+        "Tá intleacht shaorga ag athrú an domhain go tapa.",
+        "Is maith liom teicneolaíochtaí nua a fhoghlaim.",
+        "Is abairt tástála í seo.",
+        "Caithfear na huimhreacha 12345 a láimhseáil i gceart."
+    ],
 
-        "irish": [
-            "Tá intleacht shaorga ag athrú an domhain go tapa.",
-            "Is maith liom teicneolaíochtaí nua a fhoghlaim.",
-            "Is abairt tástála í seo.",
-            "Caithfear na huimhreacha 12345 a láimhseáil i gceart."
-        ],
+    "welsh": [
+        "Mae deallusrwydd artiffisial yn newid y byd yn gyflym.",
+        "Rwy'n hoffi dysgu technolegau newydd.",
+        "Dyma frawddeg brawf.",
+        "Dylid trin y rhifau 12345 yn gywir."
+    ],
 
-        "welsh": [
-            "Mae deallusrwydd artiffisial yn newid y byd yn gyflym.",
-            "Rwy'n hoffi dysgu technolegau newydd.",
-            "Dyma frawddeg brawf.",
-            "Dylid trin y rhifau 12345 yn gywir."
-        ],
+    "tibetan": [
+        "བོད་ཡིག་ནི་སྐད་ཡིག་གི་རྣམ་པ་ཞིག་ཡིན།",
+        "ང་རང་གིས་གསར་བའི་ལག་རྩལ་སྦྱོང་བ་དགའ།",
+        "འདི་ནི་ཚོད་ལྟའི་ཚིག་གྲུབ་ཡིན།",
+        "གྲངས 12345 ཡང་དག་པར་བཟོ་དགོས།"
+    ],
 
-        "tibetan": [
-            "བོད་ཡིག་ནི་སྐད་ཡིག་གི་རྣམ་པ་ཞིག་ཡིན།",
-            "ང་རང་གིས་གསར་བའི་ལག་རྩལ་སྦྱོང་བ་དགའ།",
-            "འདི་ནི་ཚོད་ལྟའི་ཚིག་གྲུབ་ཡིན།",
-            "གྲངས 12345 ཡང་དག་པར་བཟོ་དགོས།"
-        ],
+    "malagasy": [
+        "Ny faharanitan-tsaina artifisialy dia manova izao tontolo izao haingana.",
+        "Tiako ny mianatra teknolojia vaovao.",
+        "Ity dia fehezanteny fitsapana.",
+        "Ny isa 12345 dia tokony hokarakaraina tsara."
+    ],
 
-        "malagasy": [
-            "Ny faharanitan-tsaina artifisialy dia manova izao tontolo izao haingana.",
-            "Tiako ny mianatra teknolojia vaovao.",
-            "Ity dia fehezanteny fitsapana.",
-            "Ny isa 12345 dia tokony hokarakaraina tsara."
-        ],
+    "basque": [
+        "Adimen artifiziala mundua azkar aldatzen ari da.",
+        "Teknologia berriak ikastea gustatzen zait.",
+        "Hau proba esaldi bat da.",
+        "12345 zenbakiak behar bezala tratatu behar dira."
+    ],
 
-        "basque": [
-            "Adimen artifiziala mundua azkar aldatzen ari da.",
-            "Teknologia berriak ikastea gustatzen zait.",
-            "Hau proba esaldi bat da.",
-            "12345 zenbakiak behar bezala tratatu behar dira."
-        ],
+    "galician": [
+        "A intelixencia artificial está cambiando o mundo rapidamente.",
+        "Gústame aprender novas tecnoloxías.",
+        "Esta é unha frase de proba.",
+        "Os números 12345 deben tratarse correctamente."
+    ],
 
-        "galician": [
-            "A intelixencia artificial está cambiando o mundo rapidamente.",
-            "Gústame aprender novas tecnoloxías.",
-            "Esta é unha frase de proba.",
-            "Os números 12345 deben tratarse correctamente."
-        ],
+    "afrikaans": [
+        "Kunsmatige intelligensie verander die wêreld vinnig.",
+        "Ek hou daarvan om nuwe tegnologie te leer.",
+        "Dit is 'n toets sin.",
+        "Die getalle 12345 moet korrek hanteer word."
+    ],
 
-        "afrikaans": [
-            "Kunsmatige intelligensie verander die wêreld vinnig.",
-            "Ek hou daarvan om nuwe tegnologie te leer.",
-            "Dit is 'n toets sin.",
-            "Die getalle 12345 moet korrek hanteer word."
-        ],
+    "albanian": [
+        "Inteligjenca artificiale po ndryshon botën shpejt.",
+        "Më pëlqen të mësoj teknologji të reja.",
+        "Kjo është një fjali testuese.",
+        "Numrat 12345 duhet të përpunohen saktë."
+    ],
 
-        "albanian": [
-            "Inteligjenca artificiale po ndryshon botën shpejt.",
-            "Më pëlqen të mësoj teknologji të reja.",
-            "Kjo është një fjali testuese.",
-            "Numrat 12345 duhet të përpunohen saktë."
-        ],
+    "macedonian": [
+        "Вештачката интелигенција брзо го менува светот.",
+        "Сакам да учам нови технологии.",
+        "Ова е тест реченица.",
+        "Броевите 12345 треба правилно да се обработат."
+    ],
 
-        "macedonian": [
-            "Вештачката интелигенција брзо го менува светот.",
-            "Сакам да учам нови технологии.",
-            "Ова е тест реченица.",
-            "Броевите 12345 треба правилно да се обработат."
-        ],
+    "nepali": [
+        "कृत्रिम बुद्धिमत्ता छिटो विश्व परिवर्तन गरिरहेको छ।",
+        "म नयाँ प्रविधि सिक्न मन पराउँछु।",
+        "यो परीक्षण वाक्य हो।",
+        "संख्या १२३४५ सही रूपमा प्रशोधन गर्नुपर्छ।"
+    ],
 
-        "nepali": [
-            "कृत्रिम बुद्धिमत्ता छिटो विश्व परिवर्तन गरिरहेको छ।",
-            "म नयाँ प्रविधि सिक्न मन पराउँछु।",
-            "यो परीक्षण वाक्य हो।",
-            "संख्या १२३४५ सही रूपमा प्रशोधन गर्नुपर्छ।"
-        ],
+    "sinhala": [
+        "කෘතිම බුද්ධිය ලෝකය වේගයෙන් වෙනස් කරයි.",
+        "මම නව තාක්ෂණය ඉගෙන ගැනීමට කැමතියි.",
+        "මෙය පරීක්ෂණ වාක්‍යයකි.",
+        "අංක 12345 නිවැරදිව සැකසිය යුතුය."
+    ],
 
-        "sinhala": [
-            "කෘතිම බුද්ධිය ලෝකය වේගයෙන් වෙනස් කරයි.",
-            "මම නව තාක්ෂණය ඉගෙන ගැනීමට කැමතියි.",
-            "මෙය පරීක්ෂණ වාක්‍යයකි.",
-            "අංක 12345 නිවැරදිව සැකසිය යුතුය."
-        ],
+    "zulu": [
+        "Ubuhlakani bokwenziwa bushintsha umhlaba ngokushesha.",
+        "Ngithanda ukufunda ubuchwepheshe obusha.",
+        "Lesi yisigwebo sokuhlola.",
+        "Izinombolo 12345 kufanele ziphathwe kahle."
+    ]
+}
 
-        "zulu": [
-            "Ubuhlakani bokwenziwa bushintsha umhlaba ngokushesha.",
-            "Ngithanda ukufunda ubuchwepheshe obusha.",
-            "Lesi yisigwebo sokuhlola.",
-            "Izinombolo 12345 kufanele ziphathwe kahle."
-        ]
-    },
+human_languages_full = {
+
+    "english": [
+        "The quick brown fox jumps over the lazy dog.",
+        "AI is transforming how humans interact with technology.",
+        "Tokenization is a crucial step in natural language processing.",
+        "Numbers like 12345 and symbols like %$# should be handled properly.",
+        "She sells seashells by the seashore every single summer season.",
+        "The committee agreed unanimously to postpone the meeting indefinitely.",
+        "Preprocessing, stemming, and lemmatization are common NLP techniques.",
+        "The model achieved 94.7% accuracy on the held-out evaluation benchmark.",
+        "In 2024, large language models surpassed human-level performance on many tasks.",
+        "Despite the rain, the marathon runners completed all 26.2 miles.",
+        "The JSON payload contained nested objects, arrays, and null values.",
+        "Re-tokenization after normalization can introduce subtle edge-case bugs.",
+        "Byte-pair encoding iteratively merges the most frequent character pairs.",
+        "Vocabulary size directly impacts both model performance and memory usage.",
+        "Cross-lingual transfer learning enables zero-shot multilingual evaluation.",
+        "The quick brown fox jumps over the lazy dog. " * 5,  # repetition stress
+        " ".join(["word"] * 100),  # long homogeneous sequence
+        "a b c d e f g h i j k l m n o p q r s t u v w x y z",
+        "UPPERCASE ONLY SENTENCE WITH NUMBERS 999 AND SYMBOLS!!!",
+        "mixed CASE sentence With vArYiNg cApItAlIzAtIoN patterns.",
+    ],
+
+    "hindi": [
+        "कृत्रिम बुद्धिमत्ता दुनिया को तेजी से बदल रही है।",
+        "मुझे नई तकनीकों के बारे में सीखना पसंद है।",
+        "यह एक परीक्षण वाक्य है जिसमें विभिन्न शब्द शामिल हैं।",
+        "संख्या १२३४५ और प्रतीक @#! का सही उपयोग होना चाहिए।",
+        "भारत एक विविधताओं से भरा देश है जहाँ अनेक भाषाएँ बोली जाती हैं।",
+        "मशीन लर्निंग और डीप लर्निंग आधुनिक AI के आधार हैं।",
+        "प्राकृतिक भाषा प्रसंस्करण में टोकनाइज़ेशन एक महत्वपूर्ण चरण है।",
+        "हिन्दी में संयुक्त अक्षर जैसे क्ष, त्र, ज्ञ विशेष होते हैं।",
+        "शब्दों की पुनरावृत्ति से मॉडल की क्षमता का परीक्षण होता है।",
+        "नमस्ते नमस्ते नमस्ते नमस्ते नमस्ते नमस्ते नमस्ते नमस्ते",
+        "संख्या: एक दो तीन चार पाँच छह सात आठ नौ दस",
+        "विज्ञान, गणित, और प्रौद्योगिकी भविष्य की नींव हैं।",
+        "क्या आप मुझे बता सकते हैं कि यह कैसे काम करता है?",
+        "हिंदी और उर्दू भाषाएँ व्याकरण में समान लेकिन लिपि में भिन्न हैं।",
+        "इस वाक्य में अंग्रेजी के शब्द जैसे AI और ML भी हैं।",
+        "अनुच्छेद: टोकनाइज़र एक ऐसा उपकरण है जो पाठ को छोटे भागों में विभाजित करता है।",
+        "१ २ ३ ४ ५ ६ ७ ८ ९ ०",
+        "प्रश्न: क्या यह सही है? उत्तर: हाँ, यह बिल्कुल सही है।",
+        "दीर्घ वाक्य परीक्षण: " + "शब्द " * 50,
+        "विराम चिह्न परीक्षण। क्या? हाँ! नहीं; ठीक है: देखते हैं।",
+    ],
+
+    "spanish": [
+        "La inteligencia artificial está cambiando el mundo rápidamente.",
+        "Me gusta aprender sobre nuevas tecnologías.",
+        "Este es un ejemplo de oración para pruebas.",
+        "Los números 12345 y símbolos deben manejarse correctamente.",
+        "El procesamiento del lenguaje natural es fascinante.",
+        "¿Cómo funciona la tokenización en idiomas con tildes como éste?",
+        "¡Atención! Los caracteres especiales como ñ, ü, á deben preservarse.",
+        "El modelo de lenguaje entrenó durante 72 horas en 8 GPUs.",
+        "En España se habla castellano, catalán, gallego y euskera.",
+        "La tokenización sub-palabra mejora el manejo del vocabulario desconocido.",
+        "Uno dos tres cuatro cinco seis siete ocho nueve diez.",
+        "El perro come, el gato duerme, y el pájaro canta alegremente.",
+        "Los acentos: á é í ó ú ü ñ ¿ ¡ son propios del español.",
+        "Texto largo de prueba: " + "palabra " * 50,
+        "MAYÚSCULAS COMPLETAS CON ACENTOS: ÁRBOL ÁNGEL ÚNICO.",
+        "Código mezclado: función greet(nombre) { return `Hola, ${nombre}!`; }",
+        "Fecha: 25 de diciembre de 2024, a las 23:59:59 horas.",
+        "La frase más larga del mundo podría contener miles de palabras.",
+        "Números ordinales: primero, segundo, tercero, cuarto, quinto.",
+        "Abreviaturas: Dr., Sr., Sra., Ud., EE.UU., ONU, OTAN.",
+    ],
+
+    "chinese_simplified": [
+        "人工智能正在迅速改变世界。",
+        "我喜欢学习新技术。",
+        "这是一个用于测试的句子。",
+        "数字12345和符号需要正确处理。",
+        "自然语言处理是计算机科学的重要分支。",
+        "分词是中文自然语言处理中的关键步骤。",
+        "深度学习模型在图像识别和语音识别方面取得了重大突破。",
+        "中文没有空格分隔词语，这使得分词更加困难。",
+        "一二三四五六七八九十百千万亿",
+        "人工智能、机器学习、深度学习是相互关联的领域。",
+        "这个句子包含英文单词如AI和NLP以及中文字符。",
+        "标点符号：句号。逗号，问号？感叹号！冒号：分号；",
+        "重复测试：" + "词语" * 30,
+        "繁体字对比：愛、國、學、語、來、時、東、風、點、進",
+        "数字混合：2024年人工智能技术取得了显著进展。",
+        "成语测试：一石二鸟、画蛇添足、亡羊补牢、掩耳盗铃。",
+        "诗句：床前明月光，疑是地上霜，举头望明月，低头思故乡。",
+        "科技词汇：神经网络、卷积神经网络、循环神经网络、注意力机制。",
+        "混合脚本：ChatGPT是由OpenAI开发的大型语言模型。",
+        "极长句子：" + "这是一个非常长的测试句子，用来评估分词器处理长文本的能力。" * 5,
+    ],
+
+    "arabic": [
+        "الذكاء الاصطناعي يغير العالم بسرعة.",
+        "أحب تعلم التقنيات الجديدة.",
+        "هذه جملة اختبار تحتوي على كلمات مختلفة.",
+        "يجب التعامل مع الأرقام 12345 والرموز بشكل صحيح.",
+        "معالجة اللغة الطبيعية هي مجال مهم في الذكاء الاصطناعي.",
+        "اللغة العربية غنية بالاشتقاقات والصرف المعقد.",
+        "الحروف العربية: ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
+        "النص العربي يكتب من اليمين إلى اليسار.",
+        "التشكيل: مَرْحَبًا بِكُمْ فِي عَالَمِ الذَّكَاءِ الاصْطِنَاعِيِّ.",
+        "أرقام عربية: ١٢٣٤٥٦٧٨٩٠",
+        "جملة طويلة: " + "كلمة " * 40,
+        "علامات الترقيم: هل هذا صحيح؟ نعم! بالطبع: هذا صحيح.",
+        "مزيج من العربية والإنجليزية: استخدام GPT-4 في معالجة اللغة العربية.",
+        "الجذر الثلاثي: كتب، يكتب، كاتب، مكتوب، كتاب، مكتبة.",
+        "نص قرآني: بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "المصطلحات التقنية: خوارزمية، شبكة عصبية، تعلم الآلة.",
+        "أعداد: واحد اثنان ثلاثة أربعة خمسة ستة سبعة ثمانية تسعة عشرة.",
+        "الفعل والمشتقات: ذهب، يذهب، ذاهب، مذهوب، مذهب.",
+        "UPPERCASE mixed: الذكاء الاصطناعي AI يتطور بسرعة.",
+        "جملة مع رموز خاصة: البريد الإلكتروني test@example.com والرابط https://example.com",
+    ],
+
+    "russian": [
+        "Искусственный интеллект быстро меняет мир.",
+        "Мне нравится изучать новые технологии.",
+        "Это тестовое предложение для проверки.",
+        "Числа 12345 и символы должны обрабатываться правильно.",
+        "Обработка естественного языка является важной областью.",
+        "Русский алфавит содержит 33 буквы.",
+        "Буквы: А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+        "Токенизация — ключевой шаг в обработке текста.",
+        "Словообразование: учить, учитель, обучение, научить, выучить.",
+        "Длинное предложение: " + "слово " * 50,
+        "Вопрос: Как работает токенизация? Ответ: Она разбивает текст на части.",
+        "ЗАГЛАВНЫЕ БУКВЫ В РУССКОМ ТЕКСТЕ: ТЕСТ ТОКЕНИЗАТОРА.",
+        "Смешанный текст: Использование GPT модели для обработки русского текста.",
+        "Числительные: один два три четыре пять шесть семь восемь девять десять.",
+        "Падежи: дом, дома, дому, дом, домом, доме (именительный, родительный, дательный...)",
+        "Знаки препинания: Привет! Как дела? Всё хорошо; спасибо.",
+        "Аббревиатуры: РФ, США, ООН, НАТО, ИИ, МГУ.",
+        "Технические термины: нейронная сеть, свёрточная сеть, трансформер.",
+        "Email и URL: пример@почта.рф и https://пример.рф",
+        "Повторяющийся текст: тест тест тест тест тест тест тест тест тест тест.",
+    ],
+
+    "japanese": [
+        "人工知能は世界を急速に変えています。",
+        "私は新しい技術を学ぶのが好きです。",
+        "これはテスト用の文です。",
+        "数字12345と記号を正しく処理する必要があります。",
+        "自然言語処理は人工知能の重要な分野です。",
+        "日本語はひらがな、カタカナ、漢字を混在して使います。",
+        "ひらがな: あいうえおかきくけこさしすせそたちつてとなにぬねの",
+        "カタカナ: アイウエオカキクケコサシスセソタチツテトナニヌネノ",
+        "漢字テスト: 愛国学語来時東風点進発展変化技術革新未来",
+        "記号テスト: 。、！？「」『』【】〈〉《》",
+        "混合テスト: AIとNLPは自然言語処理の略語です。",
+        "長い文章テスト: " + "テスト" * 30,
+        "数字: 一二三四五六七八九十百千万億兆",
+        "敬語テスト: おはようございます、こんにちは、こんばんは、ありがとうございます。",
+        "カタカナ外来語: コンピューター、インターネット、アルゴリズム、データ。",
+        "全角英数字: ＡＢＣ１２３ａｂｃ",
+        "半角カタカナ: ｱｲｳｴｵｶｷｸｹｺ",
+        "顔文字: (^_^) (T_T) (>_<) (*^▽^*) (｡◕‿◕｡)",
+        "ふりがなテスト: 東京（とうきょう）は日本（にほん）の首都（しゅと）です。",
+        "超長文: " + "これは非常に長いテスト文章です。" * 8,
+    ],
+
+    "korean": [
+        "인공지능은 세상을 빠르게 변화시키고 있습니다.",
+        "나는 새로운 기술을 배우는 것을 좋아합니다.",
+        "이것은 테스트 문장입니다.",
+        "숫자 12345와 기호를 올바르게 처리해야 합니다.",
+        "자연어 처리는 인공지능의 중요한 분야입니다.",
+        "한국어는 교착어로 조사와 어미가 발달되어 있습니다.",
+        "자음: ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ",
+        "모음: ㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ",
+        "받침 테스트: 닭, 삶, 읽다, 앉다, 많다, 싫다.",
+        "숫자: 일 이 삼 사 오 육 칠 팔 구 십 백 천 만 억",
+        "혼합 텍스트: AI와 NLP는 자연어처리의 약어입니다.",
+        "긴 문장 테스트: " + "테스트 " * 40,
+        "문장부호: 안녕하세요! 잘 지내시나요? 네, 감사합니다.",
+        "존댓말: 안녕하세요, 감사합니다, 죄송합니다, 괜찮습니다.",
+        "반말: 안녕, 고마워, 미안해, 괜찮아.",
+        "전문용어: 신경망, 합성곱 신경망, 순환 신경망, 어텐션 메커니즘.",
+        "한자 혼용: 人工知能(인공지능)은 未來(미래)를 바꿉니다.",
+        "이모티콘 포함: ^^, ㅋㅋ, ㅠㅠ, ㄷㄷ, ㅎㅎ",
+        "URL 포함: 홈페이지는 https://example.kr 을 방문하세요.",
+        "반복 텍스트: 테스트 테스트 테스트 테스트 테스트 테스트 테스트.",
+    ],
+
+    "german": [
+        "Künstliche Intelligenz verändert die Welt schnell.",
+        "Ich lerne gerne neue Technologien.",
+        "Dies ist ein Testsatz.",
+        "Zahlen 12345 und Symbole müssen korrekt verarbeitet werden.",
+        "Natürliche Sprachverarbeitung ist ein wichtiges Forschungsgebiet.",
+        "Komposita-Test: Donaudampfschifffahrtsgesellschaft",
+        "Weiteres Kompositum: Kraftfahrzeughaftpflichtversicherung",
+        "Umlaute: ä ö ü Ä Ö Ü ß",
+        "Superlange Wörter: Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz",
+        "Zahlen ausgeschrieben: eins zwei drei vier fünf sechs sieben acht neun zehn.",
+        "Fragen: Wie funktioniert Tokenisierung? Was ist ein Vokabular?",
+        "GROSSBUCHSTABEN: DIES IST EIN TEST FÜR GROSSBUCHSTABEN.",
+        "Gemischter Text: Die KI-Modelle wie GPT-4 sind sehr leistungsfähig.",
+        "Satzzeichen: Hallo! Wie geht's? Danke, gut; und dir?",
+        "Abkürzungen: z.B., d.h., u.a., bzw., ggf., inkl., exkl.",
+        "Technische Begriffe: Neuronales Netz, maschinelles Lernen, Transformer.",
+        "Lange Sätze: " + "Wort " * 50,
+        "Datum und Zeit: Am 25. Dezember 2024 um 23:59:59 Uhr.",
+        "Trennzeichen: E-Mail, T-Shirt, Online-Shop, Open-Source.",
+        "Wiederholung: Test Test Test Test Test Test Test Test Test Test.",
+    ],
+
+    "french": [
+        "L'intelligence artificielle transforme rapidement le monde.",
+        "J'aime apprendre de nouvelles technologies.",
+        "Ceci est une phrase de test.",
+        "Les nombres 12345 et les symboles doivent être correctement traités.",
+        "Le traitement du langage naturel est un domaine fascinant.",
+        "Les accents français: à â ä è é ê ë î ï ô ù û ü ç œ æ",
+        "Les contractions: l'intelligence, j'aime, c'est, d'accord, qu'est-ce.",
+        "Questions: Comment fonctionne la tokenisation? Qu'est-ce qu'un token?",
+        "MAJUSCULES: CE TEXTE EST EN MAJUSCULES AVEC DES ACCENTS: À É È.",
+        "Chiffres: un deux trois quatre cinq six sept huit neuf dix.",
+        "Abréviations: M., Mme., Dr., etc., c.-à-d., p.ex., env.",
+        "Texte long: " + "mot " * 50,
+        "Ponctuation française: guillemets « comme ceci » et points de suspension…",
+        "Termes techniques: réseau de neurones, apprentissage automatique.",
+        "Texte mixte: Les modèles comme GPT-4 sont très performants.",
+        "Élision: l'homme, l'arbre, l'intelligence, l'ordinateur.",
+        "Liaisons: les_enfants, les_oiseaux, nous_avons.",
+        "Subjonctif: Il faut que nous apprenions de nouvelles technologies.",
+        "Néologismes: courriel, logiciel, internaute, clavardage.",
+        "Répétition: test test test test test test test test test test.",
+    ],
+
+    "tamil": [
+        "செயற்கை நுண்ணறிவு உலகை வேகமாக மாற்றுகிறது.",
+        "எனக்கு புதிய தொழில்நுட்பங்களை கற்றுக்கொள்ள விருப்பம் உள்ளது.",
+        "இது ஒரு சோதனை வாக்கியம்.",
+        "எண்கள் 12345 மற்றும் குறியீடுகள் சரியாக கையாளப்பட வேண்டும்.",
+        "இயற்கை மொழி செயலாக்கம் செயற்கை நுண்ணறிவின் முக்கிய பகுதி.",
+        "தமிழ் எழுத்துக்கள்: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ",
+        "மெய் எழுத்துக்கள்: க் ங் ச் ஞ் ட் ண் த் ந் ப் ம் ய் ர் ல் வ் ழ் ள் ற் ன்",
+        "எண்கள் தமிழில்: ஒன்று இரண்டு மூன்று நான்கு ஐந்து",
+        "நீண்ட வாக்கியம்: " + "சொல் " * 40,
+        "கேள்வி: தமிழ் மொழியில் டோக்கனைசேஷன் எவ்வாறு செயல்படுகிறது?",
+        "குறியீடுகள்: ஆம்! இல்லை? சரி; நல்லது.",
+        "கலப்பு உரை: AI மற்றும் NLP தமிழ் மொழியில் பயன்படுகின்றன.",
+        "மீண்டும் மீண்டும்: சோதனை சோதனை சோதனை சோதனை சோதனை.",
+        "சிறப்பு எழுத்துக்கள்: ஃ ஶ ஷ ஸ ஹ",
+        "கூட்டு சொற்கள்: கணினி+அறிவியல், மொழி+செயலாக்கம்.",
+        "பழமொழி: ஆடு மேய்க்காத ஊரில் ஒட்டகம் மேய்க்கலாம்.",
+        "விரிவாக்கம்: அ.இ = அரசியல் இயல், த.வி = தமிழ் வழிமுறை.",
+        "தமிழ் எண்கள்: ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௧௦",
+        "இணையதள முகவரி: https://example.com என்பது ஒரு இணையதளம்.",
+        "மிகவும் நீண்ட உரை: " + "இது ஒரு நீண்ட சோதனை வாக்கியம். " * 5,
+    ],
+
+    "bengali": [
+        "কৃত্রিম বুদ্ধিমত্তা দ্রুত বিশ্বকে পরিবর্তন করছে।",
+        "আমি নতুন প্রযুক্তি শিখতে ভালোবাসি।",
+        "এটি একটি পরীক্ষামূলক বাক্য।",
+        "সংখ্যা ১২৩৪৫ এবং প্রতীক সঠিকভাবে ব্যবহার করা উচিত।",
+        "প্রাকৃতিক ভাষা প্রক্রিয়াকরণ কৃত্রিম বুদ্ধিমত্তার একটি গুরুত্বপূর্ণ শাখা।",
+        "বাংলা বর্ণমালা: অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ",
+        "ব্যঞ্জনবর্ণ: ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ",
+        "সংখ্যা: এক দুই তিন চার পাঁচ ছয় সাত আট নয় দশ",
+        "বাংলা সংখ্যা: ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ০",
+        "দীর্ঘ বাক্য: " + "শব্দ " * 40,
+        "প্রশ্ন: টোকেনাইজেশন কি? এটি কিভাবে কাজ করে?",
+        "মিশ্র পাঠ্য: AI এবং NLP বাংলায় ব্যবহার করা হচ্ছে।",
+        "বিরাম চিহ্ন: হ্যাঁ! না? ঠিক আছে; ধন্যবাদ।",
+        "পুনরাবৃত্তি: পরীক্ষা পরীক্ষা পরীক্ষা পরীক্ষা পরীক্ষা।",
+        "বিশেষ চিহ্ন: ৳ (টাকা চিহ্ন) এবং ঁ (চন্দ্রবিন্দু)",
+        "যুক্তাক্ষর: ক্ষ, জ্ঞ, ত্র, স্ত্র, ম্ন, ব্ল",
+        "প্রযুক্তি শব্দ: নিউরাল নেটওয়ার্ক, মেশিন লার্নিং, ডিপ লার্নিং।",
+        "ইমেইল: উদাহরণ@ডোমেইন.com",
+        "দীর্ঘ অনুচ্ছেদ: " + "এটি একটি দীর্ঘ পরীক্ষামূলক বাক্য। " * 5,
+        "রবীন্দ্রনাথের বাণী: আমার সোনার বাংলা, আমি তোমায় ভালোবাসি।",
+    ],
+
+    "urdu": [
+        "مصنوعی ذہانت دنیا کو تیزی سے بدل رہی ہے۔",
+        "مجھے نئی ٹیکنالوجی سیکھنا پسند ہے۔",
+        "یہ ایک ٹیسٹ جملہ ہے۔",
+        "اعداد 12345 اور علامات کو درست طریقے سے سنبھالنا چاہیے۔",
+        "قدرتی زبان کی پروسیسنگ مصنوعی ذہانت کا ایک اہم شعبہ ہے۔",
+        "اردو حروف تہجی: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص",
+        "اردو میں اعداد: ایک دو تین چار پانچ چھ سات آٹھ نو دس",
+        "عربی اعداد: ١٢٣٤٥٦٧٨٩٠",
+        "طویل جملہ: " + "لفظ " * 40,
+        "سوال: ٹوکنائزیشن کیا ہے؟ یہ کیسے کام کرتا ہے؟",
+        "مشترکہ متن: AI اور NLP اردو میں استعمال ہوتے ہیں۔",
+        "رموز اوقاف: ہاں! نہیں؟ ٹھیک ہے؛ شکریہ۔",
+        "دہرانا: ٹیسٹ ٹیسٹ ٹیسٹ ٹیسٹ ٹیسٹ ٹیسٹ ٹیسٹ۔",
+        "تکنیکی اصطلاحات: اعصابی شبکہ، مشین لرننگ، گہری تعلیم۔",
+        "شاعری: اردو کی شاعری میں غزل، نظم اور قصیدہ شامل ہیں۔",
+        "اقبال کا شعر: خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے",
+        "ویب سائٹ: https://example.com پر جائیں",
+        "تاریخ: ۱۴ اگست ۱۹۴۷ کو پاکستان آزاد ہوا۔",
+        "ہندی اور اردو: دونوں زبانیں گرامر میں ایک جیسی لیکن رسم الخط مختلف ہے۔",
+        "بہت طویل متن: " + "یہ ایک طویل ٹیسٹ جملہ ہے۔ " * 5,
+    ],
+
+    "mixed_multilingual": [
+        "AI is transforming दुनिया 世界 بسرعة.",
+        "Hello नमस्ते 你好 مرحبا 안녕 こんにちは Привет",
+        "Data + डेटा + 数据 + بيانات combined test.",
+        "English123 हिंदी456 中文789 عربي012",
+        "The price is $50 or €45 or ₹4000 or ¥7000 or £40.",
+        "Emoji stress test: 🌍🤖🧠💻🔬🎯📊🚀✨🎉",
+        "Script mixing: αβγδ + абвг + אבגד + ابجد + あいう",
+        "Math in text: The formula E=mc² was proposed by Einstein in 1905.",
+        "Code in text: Run `python train.py --epochs 10` to start training.",
+        "URL in multilingual: Visit https://example.com/नमस्ते/こんにちは",
+        "Hashtags: #AI #人工知能 #ذكاء_اصطناعي #인공지능",
+        "Mixed numbers: １２３ + ١٢٣ + १२३ + 123 = ?",
+        "RTL + LTR: Hello مرحبا World عالم Test اختبار",
+        "Diacritics mix: café naïve résumé über fiancée",
+        "All scripts: The Ω of αβγ meets the あいう of 漢字 meets العربية",
+        "Technical mix: pip install transformers && poetry add torch",
+        "Social media: @user1 mentioned @user2 in #topic with 100% accuracy 🎯",
+        "Scientific in multiple languages: H₂O is 水 is पानी is ماء is 물",
+        "Long mixed: " + "AI नमस्ते 世界 " * 20,
+        "Edge case: \u200b\u200c\u200d zero-width characters between words",
+    ],
+
+    "portuguese": [
+        "A inteligência artificial está mudando o mundo rapidamente.",
+        "Gosto de aprender novas tecnologias.",
+        "Esta é uma frase de teste.",
+        "Os números 12345 devem ser tratados corretamente.",
+        "O processamento de linguagem natural é fascinante.",
+        "Acentos: à á â ã ä å è é ê ë ì í î ï ò ó ô õ ö ù ú û ü ç ñ",
+        "Frase longa: " + "palavra " * 50,
+        "Pergunta: Como funciona a tokenização? O que é um vocabulário?",
+        "MAIÚSCULAS: ESTE TEXTO ESTÁ EM MAIÚSCULAS COM ACENTOS: Ã Ç Á.",
+        "Números: um dois três quatro cinco seis sete oito nove dez.",
+        "Abreviações: Dr., Sr., Sra., etc., p.ex., p.p., Ltda.",
+        "Texto técnico: Rede neural, aprendizado de máquina, transformer.",
+        "Texto misto: Os modelos como GPT-4 são muito poderosos.",
+        "Pontuação: Olá! Como vai? Bem, obrigado; e você?",
+        "Repetição: teste teste teste teste teste teste teste teste.",
+        "Neologismos: deletar, printar, tuitar, escanear, formatar.",
+        "Diminutivos: casinha, carrinho, bonequinha, cachorrinho.",
+        "Aumentativos: casarão, carrão, homenzarrão.",
+        "Provérbio: Quem não arrisca, não petisca.",
+        "Data: 25 de dezembro de 2024 às 23h59min59s.",
+    ],
+
+    "turkish": [
+        "Yapay zeka dünyayı hızla değiştiriyor.",
+        "Yeni teknolojileri öğrenmeyi seviyorum.",
+        "Bu bir test cümlesidir.",
+        "12345 sayıları doğru işlenmelidir.",
+        "Doğal dil işleme yapay zekanın önemli bir alanıdır.",
+        "Türkçe özel harfler: ç ş ğ ı ö ü Ç Ş Ğ İ Ö Ü",
+        "Eklemeli yapı: gel, geldi, geldim, gelebilirdim, gelemeyebilirdim.",
+        "Uzun kelime: Çekoslovakya'laştıramadıklarımızdanmışsınızcasına",
+        "Sayılar: bir iki üç dört beş altı yedi sekiz dokuz on.",
+        "Uzun cümle: " + "kelime " * 50,
+        "Soru: Tokenizasyon nasıl çalışır? Neden önemlidir?",
+        "BÜYÜK HARFLER: BU TÜRKÇE BÜYÜK HARF TESTİDİR.",
+        "Karışık metin: AI ve NLP Türkçe'de giderek yaygınlaşıyor.",
+        "Noktalama: Merhaba! Nasılsın? İyiyim, teşekkürler; ya sen?",
+        "Tekrar: test test test test test test test test test test.",
+        "Ekler: ev+de, araba+ya, okul+dan, kitap+lar+ı+mız+da.",
+        "Teknik terimler: sinir ağı, makine öğrenmesi, derin öğrenme.",
+        "İnternet dili: @kullanici #hashtag https://örnek.com",
+        "Atasözü: Damlaya damlaya göl olur.",
+        "Çok uzun metin: " + "Bu çok uzun bir test cümlesidir. " * 5,
+    ],
+
+    "swahili": [
+        "Akili bandia inabadilisha dunia haraka.",
+        "Ninapenda kujifunza teknolojia mpya.",
+        "Hii ni sentensi ya majaribio.",
+        "Nambari 12345 zinapaswa kushughulikiwa vizuri.",
+        "Usindikaji wa lugha asilia ni uwanja muhimu wa akili bandia.",
+        "Viambishi awali vya Kiswahili: m-, wa-, ki-, vi-, n-, i-, u-, ku-",
+        "Nambari kwa Kiswahili: moja mbili tatu nne tano sita saba nane tisa kumi.",
+        "Sentensi ndefu: " + "neno " * 40,
+        "Swali: Tokenization inafanya kazije? Kwa nini ni muhimu?",
+        "Maandishi mchanganyiko: AI na NLP zinatumika katika Kiswahili.",
+        "Alama za uandishi: Ndio! Hapana? Sawa; asante.",
+        "Kurudia: jaribio jaribio jaribio jaribio jaribio jaribio.",
+        "Maneno ya teknolojia: mtandao wa neva, kujifunza kwa mashine.",
+        "Methali: Haraka haraka haina baraka.",
+        "Sentensi ndefu sana: " + "Hii ni sentensi ndefu ya majaribio. " * 5,
+    ],
+
+    "vietnamese": [
+        "Trí tuệ nhân tạo đang thay đổi thế giới nhanh chóng.",
+        "Tôi thích học công nghệ mới.",
+        "Đây là câu thử nghiệm.",
+        "Các số 12345 cần được xử lý đúng.",
+        "Xử lý ngôn ngữ tự nhiên là lĩnh vực quan trọng của AI.",
+        "Dấu thanh tiếng Việt: à á â ã è é ê ì í ò ó ô õ ù ú ý",
+        "Dấu đặc biệt: ă ắ ặ ằ ẳ ẵ, ơ ớ ợ ờ ở ỡ, ư ứ ự ừ ử ữ",
+        "Số đếm: một hai ba bốn năm sáu bảy tám chín mười.",
+        "Câu dài: " + "từ " * 50,
+        "Câu hỏi: Tokenization hoạt động như thế nào?",
+        "VĂN BẢN IN HOA: ĐÂY LÀ VĂN BẢN TIẾNG VIỆT IN HOA.",
+        "Văn bản hỗn hợp: AI và NLP đang được sử dụng rộng rãi.",
+        "Dấu câu: Xin chào! Bạn có khỏe không? Cảm ơn; tạm biệt.",
+        "Lặp lại: thử nghiệm thử nghiệm thử nghiệm thử nghiệm thử nghiệm.",
+        "Thuật ngữ kỹ thuật: mạng nơ-ron, học máy, học sâu.",
+        "Tục ngữ: Có công mài sắt có ngày nên kim.",
+        "Văn bản rất dài: " + "Đây là câu thử nghiệm dài. " * 5,
+    ],
+
+    "persian": [
+        "هوش مصنوعی به سرعت جهان را تغییر می‌دهد.",
+        "من دوست دارم فناوری‌های جدید یاد بگیرم.",
+        "این یک جمله آزمایشی است.",
+        "اعداد 12345 باید به درستی پردازش شوند.",
+        "پردازش زبان طبیعی یک حوزه مهم از هوش مصنوعی است.",
+        "حروف فارسی: آ ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی",
+        "اعداد فارسی: ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ۰",
+        "اعداد به فارسی: یک دو سه چهار پنج شش هفت هشت نه ده",
+        "جمله بلند: " + "کلمه " * 40,
+        "سوال: توکن‌سازی چیست؟ چگونه کار می‌کند؟",
+        "متن مختلط: AI و NLP در فارسی استفاده می‌شوند.",
+        "علائم نگارشی: بله! نه؟ خوب؛ ممنون.",
+        "تکرار: آزمایش آزمایش آزمایش آزمایش آزمایش.",
+        "اصطلاحات فنی: شبکه عصبی، یادگیری ماشین، یادگیری عمیق.",
+        "متن بسیار بلند: " + "این یک جمله آزمایشی بلند است. " * 5,
+    ],
+
+    "thai": [
+        "ปัญญาประดิษฐ์กำลังเปลี่ยนโลกอย่างรวดเร็ว",
+        "ฉันชอบเรียนรู้เทคโนโลยีใหม่",
+        "นี่คือประโยคทดสอบ",
+        "ตัวเลข 12345 ต้องได้รับการจัดการอย่างถูกต้อง",
+        "การประมวลผลภาษาธรรมชาติเป็นสาขาสำคัญของ AI",
+        "ภาษาไทยไม่มีช่องว่างระหว่างคำ ทำให้การแบ่งคำยากขึ้น",
+        "พยัญชนะไทย: ก ข ค ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น",
+        "สระไทย: า ิ ี ึ ื ุ ู เ แ โ ใ ไ",
+        "ตัวเลขไทย: ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ ๐",
+        "ประโยคยาว: " + "คำ " * 40,
+        "คำถาม: การแบ่งโทเค็นทำงานอย่างไร?",
+        "ข้อความผสม: AI และ NLP ถูกใช้อย่างแพร่หลายในภาษาไทย",
+        "เครื่องหมายวรรคตอน: สวัสดี! สบายดีไหม? ขอบคุณ",
+        "ซ้ำ: ทดสอบ ทดสอบ ทดสอบ ทดสอบ ทดสอบ",
+        "คำศัพท์เทคนิค: โครงข่ายประสาทเทียม, การเรียนรู้ของเครื่อง",
+        "ข้อความยาวมาก: " + "นี่คือประโยคทดสอบที่ยาวมาก " * 5,
+    ],
+
+    "greek": [
+        "Η τεχνητή νοημοσύνη αλλάζει γρήγορα τον κόσμο.",
+        "Μου αρέσει να μαθαίνω νέες τεχνολογίες.",
+        "Αυτή είναι μια δοκιμαστική πρόταση.",
+        "Οι αριθμοί 12345 πρέπει να επεξεργαστούν σωστά.",
+        "Η επεξεργασία φυσικής γλώσσας είναι σημαντικός τομέας.",
+        "Ελληνικό αλφάβητο: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω",
+        "Μικρά γράμματα: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω",
+        "Αριθμοί: ένα δύο τρία τέσσερα πέντε έξι επτά οκτώ εννέα δέκα.",
+        "Μακριά πρόταση: " + "λέξη " * 40,
+        "Ερώτηση: Πώς λειτουργεί η tokenization;",
+        "ΚΕΦΑΛΑΊΑ: ΑΥΤΌ ΕΊΝΑΙ ΚΕΦΑΛΑΊΟ ΚΕΊΜΕΝΟ ΣΤΗΝ ΕΛΛΗΝΙΚΉ.",
+        "Μικτό κείμενο: Τα μοντέλα AI όπως το GPT-4 είναι πολύ ισχυρά.",
+        "Σημεία στίξης: Γεια! Πώς είσαι; Καλά, ευχαριστώ.",
+        "Επανάληψη: δοκιμή δοκιμή δοκιμή δοκιμή δοκιμή.",
+        "Πολύ μακρύ κείμενο: " + "Αυτή είναι μια μακρά δοκιμαστική πρόταση. " * 5,
+    ],
+
+    "hebrew": [
+        "בינה מלאכותית משנה את העולם במהירות.",
+        "אני אוהב ללמוד טכנולוגיות חדשות.",
+        "זהו משפט בדיקה.",
+        "יש לטפל נכון במספרים 12345.",
+        "עיבוד שפה טבעית הוא תחום חשוב בבינה מלאכותית.",
+        "האלפבית העברי: א ב ג ד ה ו ז ח ט י כ ל מ נ ס ע פ צ ק ר ש ת",
+        "ניקוד: בָּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+        "מספרים בעברית: אחת שתיים שלוש ארבע חמש שש שבע שמונה תשע עשר",
+        "משפט ארוך: " + "מילה " * 40,
+        "שאלה: איך עובדת טוקניזציה? מה זה אסימון?",
+        "טקסט מעורב: AI ו-NLP משמשים בעברית יותר ויותר.",
+        "סימני פיסוק: שלום! מה שלומך? טוב, תודה.",
+        "חזרה: בדיקה בדיקה בדיקה בדיקה בדיקה בדיקה.",
+        "מינוח טכני: רשת עצבית, למידת מכונה, למידה עמוקה.",
+        "טקסט ארוך מאוד: " + "זהו משפט בדיקה ארוך. " * 5,
+    ],
+
+    "indonesian": [
+        "Kecerdasan buatan mengubah dunia dengan cepat.",
+        "Saya suka belajar teknologi baru.",
+        "Ini adalah kalimat uji.",
+        "Angka 12345 harus ditangani dengan benar.",
+        "Pemrosesan bahasa alami adalah bidang penting dari AI.",
+        "Bahasa Indonesia menggunakan alfabet Latin.",
+        "Awalan dan akhiran: me-, di-, ber-, ter-, pe-, ke-, -kan, -an, -i",
+        "Angka: satu dua tiga empat lima enam tujuh delapan sembilan sepuluh.",
+        "Kalimat panjang: " + "kata " * 50,
+        "Pertanyaan: Bagaimana tokenisasi bekerja? Apa itu token?",
+        "HURUF KAPITAL: INI ADALAH TES HURUF KAPITAL INDONESIA.",
+        "Teks campuran: Model AI seperti GPT-4 sangat canggih.",
+        "Tanda baca: Halo! Apa kabar? Baik, terima kasih.",
+        "Pengulangan: tes tes tes tes tes tes tes tes tes tes.",
+        "Istilah teknis: jaringan saraf, pembelajaran mesin, pembelajaran mendalam.",
+        "Reduplikasi: sayur-mayur, buah-buahan, anak-anak, teman-teman.",
+        "Kata majemuk: rumah sakit, kereta api, mata pelajaran.",
+        "Peribahasa: Bersatu kita teguh, bercerai kita runtuh.",
+        "Teks sangat panjang: " + "Ini adalah kalimat uji yang panjang. " * 5,
+        "URL: Kunjungi https://example.com untuk informasi lebih lanjut.",
+    ],
+
+    "polish": [
+        "Sztuczna inteligencja szybko zmienia świat.",
+        "Lubię uczyć się nowych technologii.",
+        "To jest zdanie testowe.",
+        "Liczby 12345 powinny być poprawnie przetwarzane.",
+        "Przetwarzanie języka naturalnego to ważna dziedzina AI.",
+        "Polskie znaki: ą ć ę ł ń ó ś ź ż Ą Ć Ę Ł Ń Ó Ś Ź Ż",
+        "Liczby: jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć.",
+        "Długie zdanie: " + "słowo " * 50,
+        "Pytanie: Jak działa tokenizacja? Co to jest token?",
+        "DUŻE LITERY: TO JEST TEST DUŻYCH LITER W JĘZYKU POLSKIM.",
+        "Tekst mieszany: Modele AI takie jak GPT-4 są bardzo potężne.",
+        "Znaki interpunkcyjne: Cześć! Jak się masz? Dobrze, dziękuję.",
+        "Powtórzenie: test test test test test test test test.",
+        "Terminy techniczne: sieć neuronowa, uczenie maszynowe, głębokie uczenie.",
+        "Długi wyraz: konstantynopolitańczykowianeczka",
+        "Deklinacja: dom, domu, domowi, dom, domem, domu, domie.",
+        "Tekst bardzo długi: " + "To jest długie zdanie testowe. " * 5,
+    ],
+
+    "ukrainian": [
+        "Штучний інтелект швидко змінює світ.",
+        "Я люблю вивчати нові технології.",
+        "Це тестове речення.",
+        "Числа 12345 повинні оброблятися правильно.",
+        "Обробка природної мови є важливою галуззю ШІ.",
+        "Українська абетка: А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я",
+        "Числа: один два три чотири п'ять шість сім вісім дев'ять десять.",
+        "Довге речення: " + "слово " * 50,
+        "Запитання: Як працює токенізація? Що таке токен?",
+        "ВЕЛИКІ ЛІТЕРИ: ЦЕ ТЕСТ ВЕЛИКИХ ЛІТЕР УКРАЇНСЬКОЮ МОВОЮ.",
+        "Змішаний текст: Моделі AI такі як GPT-4 дуже потужні.",
+        "Знаки пунктуації: Привіт! Як справи? Добре, дякую.",
+        "Повторення: тест тест тест тест тест тест тест тест.",
+        "Технічні терміни: нейронна мережа, машинне навчання, глибоке навчання.",
+        "Дуже довгий текст: " + "Це довге тестове речення. " * 5,
+    ],
+
+    "czech": [
+        "Umělá inteligence rychle mění svět.",
+        "Rád se učím nové technologie.",
+        "Toto je testovací věta.",
+        "Čísla 12345 musí být správně zpracována.",
+        "Zpracování přirozeného jazyka je důležitou oblastí AI.",
+        "České znaky: á č ď é ě í ň ó ř š ť ú ů ý ž Á Č Ď É Ě Í Ň Ó Ř Š Ť Ú Ů Ý Ž",
+        "Čísla: jedna dvě tři čtyři pět šest sedm osm devět deset.",
+        "Dlouhá věta: " + "slovo " * 50,
+        "Otázka: Jak funguje tokenizace? Co je to token?",
+        "VELKÁ PÍSMENA: TOTO JE TEST VELKÝCH PÍSMEN V ČEŠTINĚ.",
+        "Smíšený text: Modely AI jako GPT-4 jsou velmi výkonné.",
+        "Interpunkce: Ahoj! Jak se máš? Dobře, díky.",
+        "Opakování: test test test test test test test test.",
+        "Technické termíny: neuronová síť, strojové učení, hluboké učení.",
+        "Velmi dlouhý text: " + "Toto je dlouhá testovací věta. " * 5,
+    ],
+
+    "malay": [
+        "Kecerdasan buatan sedang mengubah dunia dengan cepat.",
+        "Saya suka mempelajari teknologi baru.",
+        "Ini adalah kalimat percobaan.",
+        "Angka 12345 harus diproses dengan benar.",
+        "Pemprosesan bahasa semula jadi adalah bidang penting AI.",
+        "Bahasa Melayu menggunakan tulisan Rumi (Latin) dan Jawi (Arab).",
+        "Tulisan Jawi: بهاس ملايو",
+        "Angka: satu dua tiga empat lima enam tujuh lapan sembilan sepuluh.",
+        "Ayat panjang: " + "perkataan " * 40,
+        "Soalan: Bagaimana tokenisasi berfungsi?",
+        "Tanda baca: Helo! Apa khabar? Baik, terima kasih.",
+        "Pengulangan: ujian ujian ujian ujian ujian ujian ujian.",
+        "Istilah teknikal: rangkaian neural, pembelajaran mesin, pembelajaran mendalam.",
+        "Teks sangat panjang: " + "Ini adalah ayat ujian yang panjang. " * 5,
+    ],
+
+    "nepali": [
+        "कृत्रिम बुद्धिमत्ता छिटो विश्व परिवर्तन गरिरहेको छ।",
+        "म नयाँ प्रविधि सिक्न मन पराउँछु।",
+        "यो परीक्षण वाक्य हो।",
+        "संख्या १२३४५ सही रूपमा प्रशोधन गर्नुपर्छ।",
+        "प्राकृतिक भाषा प्रशोधन AI को महत्त्वपूर्ण क्षेत्र हो।",
+        "देवनागरी अक्षरहरू: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण",
+        "नेपाली संख्याहरू: एक दुई तीन चार पाँच छ सात आठ नौ दश",
+        "नेपाली अंकहरू: १ २ ३ ४ ५ ६ ७ ८ ९ ०",
+        "लामो वाक्य: " + "शब्द " * 40,
+        "प्रश्न: टोकनाइजेशन कसरी काम गर्छ?",
+        "मिश्रित पाठ: AI र NLP नेपालीमा प्रयोग हुँदैछ।",
+        "विराम चिह्न: नमस्ते! कस्तो छ? राम्रो, धन्यवाद।",
+        "दोहोरिने: परीक्षण परीक्षण परीक्षण परीक्षण परीक्षण।",
+        "प्राविधिक शब्दावली: तंत्रिका नेटवर्क, मेसिन लर्निङ।",
+        "धेरै लामो पाठ: " + "यो एक लामो परीक्षण वाक्य हो। " * 5,
+    ],
+
+    "sinhala": [
+        "කෘතිම බුද්ධිය ලෝකය වේගයෙන් වෙනස් කරයි.",
+        "මම නව තාක්ෂණය ඉගෙන ගැනීමට කැමතියි.",
+        "මෙය පරීක්ෂණ වාක්‍යයකි.",
+        "අංක 12345 නිවැරදිව සැකසිය යුතුය.",
+        "ස්වාභාවික භාෂා සැකසීම AI හි වැදගත් ක්ෂේත්‍රයකි.",
+        "සිංහල අකුරු: අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ එ ඒ ඓ ඔ ඕ ඖ",
+        "ව්‍යංජන: ක ඛ ග ඝ ඞ ච ඡ ජ ඣ ඤ ට ඨ ඩ ඪ ණ",
+        "සංඛ්‍යා: එක දෙක තුන හතර පහ හය හත අට නව දහය",
+        "දිගු වාක්‍යය: " + "වචනය " * 40,
+        "ප්‍රශ්නය: ටෝකනීකරණය කෙසේ ක්‍රියා කරයිද?",
+        "මිශ්‍ර පෙළ: AI සහ NLP සිංහලෙන් භාවිතා වේ.",
+        "විරාම ලකුණු: ආයුබෝවන්! කොහොමද? හොඳයි, ස්තූතියි.",
+        "නැවත නැවත: පරීක්ෂණ පරීක්ෂණ පරීක්ෂණ පරීක්ෂණ.",
+        "ඉතා දිගු පෙළ: " + "මෙය දිගු පරීක්ෂණ වාක්‍යයකි. " * 5,
+    ],
+
+    "icelandic": [
+        "Gervigreind er að breyta heiminum hratt.",
+        "Mér finnst gaman að læra nýja tækni.",
+        "Þetta er prófunarsetning.",
+        "Tölurnar 12345 verða að vera rétt unnar.",
+        "Vinnsla á náttúrulegu máli er mikilvægur þáttur í gervigreind.",
+        "Íslenskar sérstakar stafir: á é í ó ú ý ð þ æ ö Á É Í Ó Ú Ý Ð Þ Æ Ö",
+        "Tölur: einn tveir þrír fjórir fimm sex sjö átta níu tíu.",
+        "Löng setning: " + "orð " * 50,
+        "Spurning: Hvernig virkar tokenization?",
+        "HÁSTAFIR: ÞETTA ER HÁSTAFAPRÓF Á ÍSLENSKU.",
+        "Blönduð texti: AI líkön eins og GPT-4 eru mjög öflug.",
+        "Greinarmerki: Halló! Hvernig hefurðu það? Fínt, takk.",
+        "Endurtekning: próf próf próf próf próf próf próf próf.",
+        "Mjög löng texti: " + "Þetta er löng prófunarsetning. " * 5,
+    ],
+
+    "georgian": [
+        "ხელოვნური ინტელექტი სწრაფად ცვლის სამყაროს.",
+        "მე მიყვარს ახალი ტექნოლოგიების სწავლა.",
+        "ეს არის სატესტო წინადადება.",
+        "რიცხვები 12345 სწორად უნდა დამუშავდეს.",
+        "ბუნებრივი ენის დამუშავება AI-ის მნიშვნელოვანი სფეროა.",
+        "ქართული ანბანი: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ",
+        "რიცხვები: ერთი ორი სამი ოთხი ხუთი ექვსი შვიდი რვა ცხრა ათი.",
+        "გრძელი წინადადება: " + "სიტყვა " * 40,
+        "კითხვა: როგორ მუშაობს ტოკენიზაცია?",
+        "შერეული ტექსტი: AI მოდელები, როგორიცაა GPT-4, ძალიან ძლიერია.",
+        "გამეორება: ტესტი ტესტი ტესტი ტესტი ტესტი ტესტი.",
+        "ძალიან გრძელი ტექსტი: " + "ეს არის გრძელი სატესტო წინადადება. " * 5,
+    ],
+
+    "armenian": [
+        "Արհեստական բանականությունը արագ փոխում է աշխարհը։",
+        "Ես սիրում եմ սովորել նոր տեխնոլոգիաներ։",
+        "Սա թեստային նախադասություն է։",
+        "Թվերը 12345 պետք է ճիշտ մշակվեն։",
+        "Բնական լեզվի մշակումը AI-ի կարևոր ոլորտ է։",
+        "Հայկական այբուբեն: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ու Փ Ք Օ Ֆ",
+        "Թվեր: մեկ երկու երեք չորս հինգ վեց յոթ ութ ինը տաս.",
+        "Երկար նախադասություն: " + "բառ " * 40,
+        "Հարց: Ինչպե՞ս է աշխատում տոկենացումը:",
+        "Խառը տեքստ: AI մոդելները, ինչպիսիք են GPT-4-ը, շատ հզոր են:",
+        "Կրկնություն: թեստ թեստ թեստ թեստ թեստ թեստ թեստ:",
+        "Շատ երկար տեքստ: " + "Սա երկար թեստային նախադասություն է: " * 5,
+    ],
+
+    "amharic": [
+        "የሰው ሠራሽ ብልህነት ዓለምን በፍጥነት እየቀየረ ነው።",
+        "አዲስ ቴክኖሎጂዎችን መማር እወዳለሁ።",
+        "ይህ የሙከራ ዓረፍተ ነገር ነው።",
+        "ቁጥሮች 12345 በትክክል መተካት አለባቸው።",
+        "የተፈጥሮ ቋንቋ ሂደት የ AI አስፈላጊ ዘርፍ ነው።",
+        "የኢትዮጵያ ፊደላት: አ ሀ ሁ ሂ ሃ ሄ ህ ሆ",
+        "ቁጥሮች: አንድ ሁለት ሦስት አራት አምስት ስድስት ሰባት ስምንት ዘጠኝ አስር",
+        "ረጅም ዓረፍተ ነገር: " + "ቃል " * 30,
+        "ጥያቄ: ቶከናይዜሽን እንዴት ይሠራል?",
+        "ድብልቅ ጽሑፍ: AI እና NLP በአማርኛ ጥቅም ላይ ይውላሉ።",
+        "ድግግሞሽ: ሙከራ ሙከራ ሙከራ ሙከራ ሙከራ ሙከራ።",
+        "በጣም ረጅም ጽሑፍ: " + "ይህ ረጅም የሙከራ ዓረፍተ ነገር ነው። " * 5,
+    ],
+
+    "mongolian": [
+        "Хиймэл оюун ухаан дэлхийг хурдан өөрчилж байна.",
+        "Би шинэ технологи сурах дуртай.",
+        "Энэ бол туршилтын өгүүлбэр.",
+        "12345 тоог зөв боловсруулах хэрэгтэй.",
+        "Байгалийн хэл боловсруулалт нь AI-ийн чухал салбар.",
+        "Монгол цагаан толгой: А Б В Г Д Е Ё Ж З И Й К Л М Н О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я",
+        "Тоо: нэг хоёр гурав дөрөв тав зургаа долоо найм ес арав.",
+        "Урт өгүүлбэр: " + "үг " * 40,
+        "Асуулт: Токенчлол хэрхэн ажилладаг вэ?",
+        "Холимог текст: AI загварууд, тухайлбал GPT-4, маш хүчирхэг.",
+        "Давталт: туршилт туршилт туршилт туршилт туршилт.",
+        "Маш урт текст: " + "Энэ бол урт туршилтын өгүүлбэр. " * 5,
+    ],
+
+    "zulu": [
+        "Ubuhlakani bokwenziwa bushintsha umhlaba ngokushesha.",
+        "Ngithanda ukufunda ubuchwepheshe obusha.",
+        "Lesi yisigwebo sokuhlola.",
+        "Izinombolo 12345 kufanele ziphathwe kahle.",
+        "Ukucubungula ulimi lwemvelo kuyisici esibalulekile se-AI.",
+        "Izinombolo: kunye kubili kuthathu kune kuhlanu isithupha isikhombisa isishiyagalombili isishiyagalolunye ishumi.",
+        "Umusho omude: " + "igama " * 30,
+        "Umbuzo: Ukufakakelwa kwezinhlamvu kusebenza kanjani?",
+        "Ukuphindaphinda: ukuhlola ukuhlola ukuhlola ukuhlola ukuhlola.",
+        "Umbhalo omude kakhulu: " + "Lesi yisigwebo sokuhlola eside. " * 5,
+    ],
+
+    "afrikaans": [
+        "Kunsmatige intelligensie verander die wêreld vinnig.",
+        "Ek hou daarvan om nuwe tegnologie te leer.",
+        "Dit is 'n toets sin.",
+        "Die getalle 12345 moet korrek hanteer word.",
+        "Natuurlike taalverwerking is 'n belangrike gebied van KI.",
+        "Afrikaanse karakters: â ê î ô û ä ë ï ö ü é è",
+        "Getalle: een twee drie vier vyf ses sewe agt nege tien.",
+        "Lang sin: " + "woord " * 50,
+        "Vraag: Hoe werk tokenisering? Wat is 'n token?",
+        "HOOFLETTERS: DIT IS 'N TOETS VIR HOOFLETTERS IN AFRIKAANS.",
+        "Gemengde teks: AI-modelle soos GPT-4 is baie kragtig.",
+        "Leestekens: Hallo! Hoe gaan dit? Goed, dankie.",
+        "Herhaling: toets toets toets toets toets toets toets toets.",
+        "Tegniese terme: neurale netwerk, masjienleer, diep leer.",
+        "Baie lang teks: " + "Dit is 'n lang toetsin. " * 5,
+    ],
+
+    "welsh": [
+        "Mae deallusrwydd artiffisial yn newid y byd yn gyflym.",
+        "Rwy'n hoffi dysgu technolegau newydd.",
+        "Dyma frawddeg brawf.",
+        "Dylid trin y rhifau 12345 yn gywir.",
+        "Mae prosesu iaith naturiol yn faes pwysig o AI.",
+        "Llythrennau arbennig Cymraeg: â ê î ô û ŵ ŷ Â Ê Î Ô Û Ŵ Ŷ",
+        "Rhifau: un dau tri pedwar pump chwech saith wyth naw deg.",
+        "Brawddeg hir: " + "gair " * 40,
+        "Cwestiwn: Sut mae tokenization yn gweithio?",
+        "LLYTHRENNAU MAWR: DYMA BRAWF LLYTHRENNAU MAWR YN GYMRAEG.",
+        "Testun cymysg: Mae modelau AI fel GPT-4 yn bwerus iawn.",
+        "Atalnodiad: Helo! Sut wyt ti? Da iawn, diolch.",
+        "Ailadrodd: prawf prawf prawf prawf prawf prawf prawf prawf.",
+        "Testun hir iawn: " + "Dyma frawddeg brawf hir. " * 5,
+    ],
+
+    "irish": [
+        "Tá intleacht shaorga ag athrú an domhain go tapa.",
+        "Is maith liom teicneolaíochtaí nua a fhoghlaim.",
+        "Is abairt tástála í seo.",
+        "Caithfear na huimhreacha 12345 a láimhseáil i gceart.",
+        "Is réimse tábhachtach d'AI é próiseáil teanga nádúrtha.",
+        "Carachtair speisialta Gaeilge: á é í ó ú Á É Í Ó Ú",
+        "Uimhreacha: a haon a dó a trí a ceathair a cúig a sé a seacht a hocht a naoi a deich.",
+        "Abairt fhada: " + "focal " * 40,
+        "Ceist: Cé mar a oibríonn tokenization?",
+        "CEANNLITREACHA: SIN É TÁSTÁIL CEANNLITREACHA SA GHAEILGE.",
+        "Téacs measctha: Tá samhlacha AI cosúil le GPT-4 an-chumhachtach.",
+        "Poncaíocht: Dia duit! Conas atá tú? Go maith, go raibh maith agat.",
+        "Athrá: tástáil tástáil tástáil tástáil tástáil tástáil.",
+        "Téacs an-fhada: " + "Seo abairt thástála fhada. " * 5,
+    ],
+
+    "basque": [
+        "Adimen artifiziala mundua azkar aldatzen ari da.",
+        "Teknologia berriak ikastea gustatzen zait.",
+        "Hau proba esaldi bat da.",
+        "12345 zenbakiak behar bezala tratatu behar dira.",
+        "Hizkuntza naturalaren prozesaketa AI-aren alor garrantzitsua da.",
+        "Euskarako hizkiak: á é í ó ú ü ñ",
+        "Zenbakiak: bat bi hiru lau bost sei zazpi zortzi bederatzi hamar.",
+        "Esaldi luzea: " + "hitz " * 40,
+        "Galdera: Nola funtzionatzen du tokenizazioak?",
+        "LETRA LARRIAK: HAU DA EUSKARAZKO LETRA LARRIEN PROBA.",
+        "Testu mistoa: GPT-4 bezalako AI ereduak oso indartsuak dira.",
+        "Puntuazioa: Kaixo! Zer moduz? Ondo, eskerrik asko.",
+        "Errepikaketa: proba proba proba proba proba proba proba proba.",
+        "Testu oso luzea: " + "Hau proba esaldi luze bat da. " * 5,
+    ],
+
+    "tibetan": [
+        "བོད་ཡིག་ནི་སྐད་ཡིག་གི་རྣམ་པ་ཞིག་ཡིན།",
+        "ང་རང་གིས་གསར་བའི་ལག་རྩལ་སྦྱོང་བ་དགའ།",
+        "འདི་ནི་ཚོད་ལྟའི་ཚིག་གྲུབ་ཡིན།",
+        "གྲངས 12345 ཡང་དག་པར་བཟོ་དགོས།",
+        "རང་བྱུང་སྐད་ཡིག་ལས་འགན་སྤྱོད་པ་ནི་AI ཡི་ཤེས་ཡོན་གལ་ཆེན་པོ་ཞིག་ཡིན།",
+        "བོད་ཡིག་གི་ཡི་གེ་གཞི་རྩ: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ",
+        "གྲངས་ཀ: གཅིག གཉིས གསུམ བཞི ལྔ དྲུག བདུན བརྒྱད དགུ བཅུ",
+        "རིང་ཞིང་ཚིག་གྲུབ: " + "ཚིག་ " * 30,
+        "དྲི་བ: ཏོཀེན་བཟོ་ལས་ལ་ཇི་ལྟར་ལས་འགན་སྤྱོད་ཡོད་དམ།",
+        "བར་བསྐྱར་བཟོ: ཚོད་ལྟ་ ཚོད་ལྟ་ ཚོད་ལྟ་ ཚོད་ལྟ་ ཚོད་ལྟ་",
+    ],
+
+    "filipino": [
+        "Ang artificial intelligence ay mabilis na binabago ang mundo.",
+        "Gusto kong matuto ng mga bagong teknolohiya.",
+        "Ito ay isang test na pangungusap.",
+        "Ang mga numerong 12345 ay dapat maayos na hawakan.",
+        "Ang natural language processing ay mahalagang larangan ng AI.",
+        "Espesyal na titik sa Filipino: á é í ó ú ñ",
+        "Mga bilang: isa dalawa tatlo apat lima anim pito walo siyam sampu.",
+        "Mahabang pangungusap: " + "salita " * 40,
+        "Tanong: Paano gumagana ang tokenization?",
+        "MALAKING TITIK: ITO AY PAGSUBOK NG MALAKING TITIK SA FILIPINO.",
+        "Halo-halong teksto: Ang mga AI model tulad ng GPT-4 ay napaka-makapangyarihan.",
+        "Bantas: Kumusta! Kamusta ka? Mabuti, salamat.",
+        "Pag-ulit: pagsubok pagsubok pagsubok pagsubok pagsubok.",
+        "Napakahaba na teksto: " + "Ito ay isang mahabang pangungusap para sa pagsubok. " * 4,
+    ],
+
+    "norwegian": [
+        "Kunstig intelligens endrer verden raskt.",
+        "Jeg liker å lære nye teknologier.",
+        "Dette er en testsetning.",
+        "Tallene 12345 må behandles riktig.",
+        "Naturlig språkbehandling er et viktig felt innen AI.",
+        "Norske spesialtegn: æ ø å Æ Ø Å",
+        "Tall: en to tre fire fem seks sju åtte ni ti.",
+        "Lang setning: " + "ord " * 50,
+        "Spørsmål: Hvordan fungerer tokenisering? Hva er et token?",
+        "STORE BOKSTAVER: DETTE ER EN TEST AV STORE BOKSTAVER PÅ NORSK.",
+        "Blandet tekst: AI-modeller som GPT-4 er svært kraftige.",
+        "Tegnsetting: Hei! Hvordan har du det? Bra, takk.",
+        "Repetisjon: test test test test test test test test.",
+        "Tekniske termer: nevralt nettverk, maskinlæring, dyp læring.",
+        "Veldig lang tekst: " + "Dette er en lang testsetning. " * 5,
+    ],
+
+    "danish": [
+        "Kunstig intelligens ændrer verden hurtigt.",
+        "Jeg kan lide at lære nye teknologier.",
+        "Dette er en testsætning.",
+        "Tallene 12345 skal håndteres korrekt.",
+        "Naturlig sprogbehandling er et vigtigt felt inden for AI.",
+        "Danske specialtegn: æ ø å Æ Ø Å",
+        "Tal: en to tre fire fem seks syv otte ni ti.",
+        "Lang sætning: " + "ord " * 50,
+        "Spørgsmål: Hvordan fungerer tokenisering?",
+        "STORE BOGSTAVER: DETTE ER EN TEST AF STORE BOGSTAVER PÅ DANSK.",
+        "Blandet tekst: AI-modeller som GPT-4 er meget kraftfulde.",
+        "Tegnsætning: Hej! Hvordan har du det? Godt, tak.",
+        "Gentagelse: test test test test test test test test.",
+        "Meget lang tekst: " + "Dette er en lang testsætning. " * 5,
+    ],
+
+    "finnish": [
+        "Tekoäly muuttaa maailmaa nopeasti.",
+        "Pidän uusien teknologioiden oppimisesta.",
+        "Tämä on testilause.",
+        "Numerot 12345 tulee käsitellä oikein.",
+        "Luonnollisen kielen käsittely on tärkeä tekoälyn ala.",
+        "Suomalaiset erikoismerkit: ä ö å Ä Ö Å",
+        "Luvut: yksi kaksi kolme neljä viisi kuusi seitsemän kahdeksan yhdeksän kymmenen.",
+        "Pitkä lause: " + "sana " * 50,
+        "Kysymys: Miten tokenointi toimii? Mikä on token?",
+        "ISOT KIRJAIMET: TÄMÄ ON TESTI ISOISTA KIRJAIMISTA SUOMEKSI.",
+        "Sekalainen teksti: AI-mallit kuten GPT-4 ovat erittäin tehokkaita.",
+        "Välimerkit: Hei! Miten menee? Hyvin, kiitos.",
+        "Toisto: testi testi testi testi testi testi testi testi.",
+        "Pitkä yhdyssana: lentokonesuihkuturbiinimoottoriapumekaanikkoaliupseerioppilas",
+        "Hyvin pitkä teksti: " + "Tämä on pitkä testilause. " * 5,
+    ],
+
+    "hungarian": [
+        "A mesterséges intelligencia gyorsan megváltoztatja a világot.",
+        "Szeretek új technológiákat tanulni.",
+        "Ez egy tesztmondat.",
+        "Az 12345 számokat megfelelően kell kezelni.",
+        "A természetes nyelvfeldolgozás az AI fontos területe.",
+        "Magyar speciális karakterek: á é í ó ö ő ú ü ű Á É Í Ó Ö Ő Ú Ü Ű",
+        "Számok: egy kettő három négy öt hat hét nyolc kilenc tíz.",
+        "Hosszú mondat: " + "szó " * 50,
+        "Kérdés: Hogyan működik a tokenizáció? Mi az a token?",
+        "NAGYBETŰK: EZ EGY NAGYBETŰS TESZT MAGYARUL.",
+        "Vegyes szöveg: Az AI modellek, mint a GPT-4, nagyon erősek.",
+        "Írásjelek: Helló! Hogy vagy? Jól, köszönöm.",
+        "Ismétlés: teszt teszt teszt teszt teszt teszt teszt teszt.",
+        "Technikai kifejezések: neurális hálózat, gépi tanulás, mély tanulás.",
+        "Nagyon hosszú szöveg: " + "Ez egy hosszú tesztmondat. " * 5,
+    ],
+
+    "romanian": [
+        "Inteligența artificială schimbă rapid lumea.",
+        "Îmi place să învăț tehnologii noi.",
+        "Aceasta este o propoziție de test.",
+        "Numerele 12345 trebuie gestionate corect.",
+        "Procesarea limbajului natural este un domeniu important al AI.",
+        "Caractere speciale române: ă â î ș ț Ă Â Î Ș Ț",
+        "Numere: unu doi trei patru cinci șase șapte opt nouă zece.",
+        "Propoziție lungă: " + "cuvânt " * 50,
+        "Întrebare: Cum funcționează tokenizarea?",
+        "MAJUSCULE: ACESTA ESTE UN TEST CU MAJUSCULE ÎN ROMÂNĂ.",
+        "Text mixt: Modelele AI precum GPT-4 sunt foarte puternice.",
+        "Semne de punctuație: Bună ziua! Ce mai faci? Bine, mulțumesc.",
+        "Repetare: test test test test test test test test.",
+        "Termeni tehnici: rețea neuronală, învățare automată, învățare profundă.",
+        "Text foarte lung: " + "Aceasta este o propoziție lungă de test. " * 5,
+    ],
+
+    "slovak": [
+        "Umelá inteligencia rýchlo mení svet.",
+        "Rád sa učím nové technológie.",
+        "Toto je testovacia veta.",
+        "Čísla 12345 musia byť správne spracované.",
+        "Spracovanie prirodzeného jazyka je dôležitou oblasťou AI.",
+        "Slovenské znaky: á ä č ď é í ĺ ľ ň ó ô ŕ š ť ú ý ž",
+        "Čísla: jedna dva tri štyri päť šesť sedem osem deväť desať.",
+        "Dlhá veta: " + "slovo " * 50,
+        "Otázka: Ako funguje tokenizácia? Čo je to token?",
+        "VEĽKÉ PÍSMENÁ: TOTO JE TEST VEĽKÝCH PÍSMEN V SLOVENČINE.",
+        "Zmiešaný text: AI modely ako GPT-4 sú veľmi výkonné.",
+        "Interpunkcia: Ahoj! Ako sa máš? Dobre, ďakujem.",
+        "Opakovanie: test test test test test test test test.",
+        "Technické termíny: neurónová sieť, strojové učenie, hlboké učenie.",
+        "Veľmi dlhý text: " + "Toto je dlhá testovacia veta. " * 5,
+    ],
+
+    "serbian": [
+        "Вештачка интелигенција брзо мења свет.",
+        "Волим да учим нове технологије.",
+        "Ово је тест реченица.",
+        "Бројеви 12345 морају бити правилно обрађени.",
+        "Обрада природног језика је важна област вештачке интелигенције.",
+        "Српска ћирилица: А Б В Г Д Ђ Е Ж З И Ј К Л Љ М Н Њ О П Р С Т Ћ У Ф Х Ц Ч Џ Ш",
+        "Латиница: A B V G D Đ E Ž Z I J K L Lj M N Nj O P R S T Ć U F H C Č Dž Š",
+        "Бројеви: један два три четири пет шест седам осам девет десет.",
+        "Дуга реченица: " + "реч " * 40,
+        "Питање: Како функционише токенизација?",
+        "ВЕЛИКА СЛОВА: ОВО ЈЕ ТЕСТ ВЕЛИКИХ СЛОВА НА СРПСКОМ.",
+        "Мешани текст: AI модели попут GPT-4 су веома моћни.",
+        "Знаци интерпункције: Здраво! Како си? Добро, хвала.",
+        "Понављање: тест тест тест тест тест тест тест тест.",
+        "Врло дуг текст: " + "Ово је дуга тест реченица. " * 5,
+    ],
+
+    "croatian": [
+        "Umjetna inteligencija brzo mijenja svijet.",
+        "Volim učiti nove tehnologije.",
+        "Ovo je testna rečenica.",
+        "Brojevi 12345 trebaju biti pravilno obrađeni.",
+        "Obrada prirodnog jezika važno je područje UI.",
+        "Hrvatski znakovi: č ć đ š ž Č Ć Đ Š Ž",
+        "Brojevi: jedan dva tri četiri pet šest sedam osam devet deset.",
+        "Duga rečenica: " + "riječ " * 50,
+        "Pitanje: Kako funkcionira tokenizacija? Što je token?",
+        "VELIKA SLOVA: OVO JE TEST VELIKIH SLOVA NA HRVATSKOM.",
+        "Mješoviti tekst: AI modeli poput GPT-4 su vrlo moćni.",
+        "Interpunkcija: Bok! Kako si? Dobro, hvala.",
+        "Ponavljanje: test test test test test test test test.",
+        "Tehnički termini: neuronska mreža, strojno učenje, duboko učenje.",
+        "Vrlo dugačak tekst: " + "Ovo je duga testna rečenica. " * 5,
+    ],
+
+    "lithuanian": [
+        "Dirbtinis intelektas greitai keičia pasaulį.",
+        "Man patinka mokytis naujų technologijų.",
+        "Tai yra testinis sakinys.",
+        "Skaičiai 12345 turi būti tinkamai apdoroti.",
+        "Natūralios kalbos apdorojimas yra svarbi DI sritis.",
+        "Lietuviški specialieji simboliai: ą č ę ė į š ų ū ž Ą Č Ę Ė Į Š Ų Ū Ž",
+        "Skaičiai: vienas du trys keturi penki šeši septyni aštuoni devyni dešimt.",
+        "Ilgas sakinys: " + "žodis " * 50,
+        "Klausimas: Kaip veikia tokenizavimas? Kas yra žetonas?",
+        "DIDŽIOSIOS RAIDĖS: TAI DIDŽIŲJŲ RAIDŽIŲ TESTAS LIETUVIŲ KALBA.",
+        "Mišrus tekstas: AI modeliai kaip GPT-4 yra labai galingi.",
+        "Skyrybos ženklai: Labas! Kaip laikaisi? Gerai, ačiū.",
+        "Kartojimas: testas testas testas testas testas testas testas.",
+        "Labai ilgas tekstas: " + "Tai ilgas testinis sakinys. " * 5,
+    ],
+
+    "macedonian": [
+        "Вештачката интелигенција брзо го менува светот.",
+        "Сакам да учам нови технологии.",
+        "Ова е тест реченица.",
+        "Броевите 12345 треба правилно да се обработат.",
+        "Обработката на природен јазик е важна област на ВИ.",
+        "Македонска кирилица: А Б В Г Д Ѓ Е Ж З Ѕ И Ј К Л Љ М Н Њ О П Р С Т Ќ У Ф Х Ц Ч Џ Ш",
+        "Броеви: еден два три четири пет шест седум осум девет десет.",
+        "Долга реченица: " + "збор " * 40,
+        "Прашање: Како функционира токенизацијата?",
+        "ГОЛЕМА БУКВИ: ОВА Е ТЕСТ НА ГОЛЕМА БУКВИ НА МАКЕДОНСКИ.",
+        "Мешан текст: AI моделите како GPT-4 се многу моќни.",
+        "Интерпункција: Здраво! Како си? Добро, благодарам.",
+        "Повторување: тест тест тест тест тест тест тест тест.",
+        "Многу долг текст: " + "Ова е долга тест реченица. " * 5,
+    ],
+
+    "albanian": [
+        "Inteligjenca artificiale po ndryshon botën shpejt.",
+        "Më pëlqen të mësoj teknologji të reja.",
+        "Kjo është një fjali testuese.",
+        "Numrat 12345 duhet të përpunohen saktë.",
+        "Përpunimi i gjuhës natyrore është fushë e rëndësishme e IA.",
+        "Karaktere speciale shqip: ç ë Ç Ë",
+        "Numrat: një dy tre katër pesë gjashtë shtatë tetë nëntë dhjetë.",
+        "Fjali e gjatë: " + "fjalë " * 50,
+        "Pyetje: Si funksionon tokenizimi? Çfarë është një token?",
+        "SHKRONJA TË MËDHA: KY ËSHTË NJË TEST I SHKRONJAVE TË MËDHA NË SHQIP.",
+        "Tekst i përzier: Modelet AI si GPT-4 janë shumë të fuqishme.",
+        "Shenjat e pikësimit: Përshëndetje! Si jeni? Mirë, faleminderit.",
+        "Përsëritje: test test test test test test test test.",
+        "Tekst shumë i gjatë: " + "Kjo është një fjali e gjatë testuese. " * 5,
+    ],
+
+    "galician": [
+        "A intelixencia artificial está cambiando o mundo rapidamente.",
+        "Gústame aprender novas tecnoloxías.",
+        "Esta é unha frase de proba.",
+        "Os números 12345 deben tratarse correctamente.",
+        "O procesamento da linguaxe natural é un campo importante da IA.",
+        "Caracteres especiais galegos: á é í ó ú ü ñ Á É Í Ó Ú Ü Ñ",
+        "Números: un dous tres catro cinco seis sete oito nove dez.",
+        "Frase longa: " + "palabra " * 50,
+        "Pregunta: Como funciona a tokenización? Que é un token?",
+        "MAIÚSCULAS: ESTA É UNHA PROBA DE MAIÚSCULAS EN GALEGO.",
+        "Texto mixto: Os modelos IA como GPT-4 son moi potentes.",
+        "Puntuación: Ola! Como estás? Ben, grazas.",
+        "Repetición: proba proba proba proba proba proba proba proba.",
+        "Texto moi longo: " + "Esta é unha frase de proba longa. " * 5,
+    ],
+
+    "burmese": [
+        "ဉာဏ်ရည်တုသည် ကမ္ဘာကို မြန်ဆန်စွာ ပြောင်းလဲနေသည်။",
+        "နည်းပညာအသစ်များကို လေ့လာရတာကို ကြိုက်သည်။",
+        "ဤသည် စမ်းသပ်စာကြောင်းဖြစ်သည်။",
+        "နံပါတ် 12345 ကို မှန်ကန်စွာ ကိုင်တွယ်ရမည်။",
+        "သဘာဝဘာသာစကားမှု AI ၏ အရေးကြီးသောနယ်ပယ်တစ်ခုဖြစ်သည်။",
+        "မြန်မာဘာသာ သရများ: က ခ ဂ ဃ င စကားလုံး",
+        "ဂဏန်းများ: တစ် နှစ် သုံး လေး ငါး ခြောက် ခုနစ် ရှစ် ကိုး တစ်ဆယ်",
+        "ရှည်သောဝါကျ: " + "စကား " * 30,
+        "မေးခွန်း: Tokenization သည် မည်သို့ အလုပ်လုပ်သနည်း?",
+        "ထပ်ခါတလဲ: စမ်းသပ် စမ်းသပ် စမ်းသပ် စမ်းသပ် စမ်းသပ်",
+        "အလွန်ရှည်သောစာသား: " + "ဤသည် ရှည်သော စမ်းသပ်ဝါကျဖြစ်သည်။ " * 4,
+    ],
+
+    "khmer": [
+        "បញ្ញាសិប្បនិម្មិតកំពុងផ្លាស់ប្តូរពិភពលោកយ៉ាងលឿន។",
+        "ខ្ញុំចូលចិត្តរៀនបច្ចេកវិទ្យាថ្មី។",
+        "នេះគឺជាប្រយោគសាកល្បង។",
+        "លេខ 12345 ត្រូវតែដំណើរការយ៉ាងត្រឹមត្រូវ។",
+        "ការដំណើរការភាសាធម្មជាតិគឺជាផ្នែកសំខាន់នៃ AI។",
+        "លេខខ្មែរ: ១ ២ ៣ ៤ ៥ ៦ ៧ ៨ ៩ ០",
+        "ប្រយោគវែង: " + "ពាក្យ " * 30,
+        "សំណួរ: Tokenization ដំណើរការដូចម្តេច?",
+        "ការធ្វើម្ដងទៀត: ការសាកល្បង ការសាកល្បង ការសាកល្បង ការសាកល្បង",
+        "អត្ថបទវែងណាស់: " + "នេះគឺជាប្រយោគសាកល្បងវែង។ " * 4,
+    ],
+
+    "lao": [
+        "ປັນຍາປະດິດກໍາລັງປ່ຽນແປງໂລກຢ່າງໄວ.",
+        "ຂ້ອຍມັກຮຽນຮູ້ເຕັກໂນໂລຊີໃໝ່.",
+        "ນີ້ແມ່ນປະໂຫຍກທົດສອບ.",
+        "ເລກ 12345 ຕ້ອງຖືກຈັດການຢ່າງຖືກຕ້ອງ.",
+        "ການປະມວນຜົນພາສາທໍາມະຊາດແມ່ນຂົງເຂດທີ່ສໍາຄັນຂອງ AI.",
+        "ໂຕເລກລາວ: ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ ໐",
+        "ປະໂຫຍກຍາວ: " + "ຄໍາ " * 30,
+        "ຄໍາຖາມ: Tokenization ເຮັດວຽກແນວໃດ?",
+        "ການຊໍ້າ: ທົດສອບ ທົດສອບ ທົດສອບ ທົດສອບ ທົດສອບ",
+        "ຂໍ້ຄວາມຍາວຫຼາຍ: " + "ນີ້ແມ່ນປະໂຫຍກທົດສອບທີ່ຍາວ. " * 4,
+    ],
+
+    "malagasy": [
+        "Ny faharanitan-tsaina artifisialy dia manova izao tontolo izao haingana.",
+        "Tiako ny mianatra teknolojia vaovao.",
+        "Ity dia fehezanteny fitsapana.",
+        "Ny isa 12345 dia tokony hokarakaraina tsara.",
+        "Ny fandidiana fiteny voajanahary dia sehatra manan-danja ao amin'ny AI.",
+        "Isa: iray roa telo efatra dimy enina fito valo sivy folo.",
+        "Fehezanteny lava: " + "teny " * 40,
+        "Fanontaniana: Ahoana ny fisian'ny tokenization?",
+        "Famenoana: fitsapana fitsapana fitsapana fitsapana fitsapana.",
+        "Lahatsoratra lava be: " + "Ity dia fehezanteny fitsapana lava. " * 4,
+    ],
+
+    "chinese_traditional": [
+        "人工智能正在迅速改變世界。",
+        "我喜歡學習新技術。",
+        "這是一個用於測試的句子。",
+        "數字12345和符號需要正確處理。",
+        "自然語言處理是計算機科學的重要分支。",
+        "繁體中文使用傳統漢字，與簡體字有所不同。",
+        "常用繁體字：愛、國、學、語、來、時、東、風、點、進",
+        "成語：一石二鳥、畫蛇添足、亡羊補牢、掩耳盜鈴。",
+        "詩句：床前明月光，疑是地上霜，舉頭望明月，低頭思故鄉。",
+        "長句子：" + "這是一個非常長的測試句子，用來評估分詞器處理長文本的能力。" * 4,
+        "數字：一二三四五六七八九十百千萬億",
+        "混合：ChatGPT是由OpenAI開發的大型語言模型。",
+        "標點符號：句號。逗號，問號？感嘆號！冒號：分號；",
+        "重複：測試 測試 測試 測試 測試 測試 測試 測試 測試 測試",
+    ],
+
+    "catalan": [
+        "La intel·ligència artificial està canviant el món ràpidament.",
+        "M'agrada aprendre noves tecnologies.",
+        "Aquesta és una frase de prova.",
+        "Els números 12345 s'han de tractar correctament.",
+        "El processament del llenguatge natural és fascinant.",
+        "Caràcters especials del català: à è é í ï ò ó ú ü ç l·l",
+        "Números: un dos tres quatre cinc sis set vuit nou deu.",
+        "Frase llarga: " + "paraula " * 40,
+        "Pregunta: Com funciona la tokenització? Què és un token?",
+        "MAJÚSCULES: AQUEST ÉS UN TEST DE MAJÚSCULES EN CATALÀ.",
+        "Text mixt: Els models d'IA com GPT-4 són molt potents.",
+        "Puntuació: Hola! Com estàs? Bé, gràcies.",
+        "Repetició: prova prova prova prova prova prova prova prova.",
+        "Text molt llarg: " + "Aquesta és una frase de prova llarga. " * 4,
+    ],
+
+    "latvian": [
+        "Mākslīgais intelekts ātri maina pasauli.",
+        "Man patīk mācīties jaunas tehnoloģijas.",
+        "Šis ir testa teikums.",
+        "Skaitļi 12345 jāapstrādā pareizi.",
+        "Dabiskās valodas apstrāde ir svarīga MI joma.",
+        "Latviešu speciālie burti: ā č ē ģ ī ķ ļ ņ š ū ž",
+        "Skaitļi: viens divi trīs četri pieci seši septiņi astoņi deviņi desmit.",
+        "Garš teikums: " + "vārds " * 40,
+        "Jautājums: Kā darbojas tokenizācija?",
+        "LIELIE BURTI: ŠIS IR LIELO BURTU TESTS LATVIEŠU VALODĀ.",
+        "Jaukts teksts: AI modeļi kā GPT-4 ir ļoti jaudīgi.",
+        "Interpunkcija: Sveiki! Kā tev iet? Labi, paldies.",
+        "Atkārtošana: tests tests tests tests tests tests tests.",
+        "Ļoti garš teksts: " + "Šis ir garš testa teikums. " * 4,
+    ],
+
+    "estonian": [
+        "Tehisintellekt muudab maailma kiiresti.",
+        "Mulle meeldib uusi tehnoloogiaid õppida.",
+        "See on testlause.",
+        "Numbrid 12345 tuleb korrektselt töödelda.",
+        "Loomuliku keele töötlemine on oluline TI valdkond.",
+        "Eesti erimärgid: ä ö ü õ š ž",
+        "Numbrid: üks kaks kolm neli viis kuus seitse kaheksa üheksa kümme.",
+        "Pikk lause: " + "sõna " * 40,
+        "Küsimus: Kuidas tokeniseerimine töötab?",
+        "SUURTÄHED: SEE ON SUURTÄHTEDE TEST EESTI KEELES.",
+        "Segakeel: AI mudelid nagu GPT-4 on väga võimsad.",
+        "Kirjavahemärgid: Tere! Kuidas läheb? Hästi, aitäh.",
+        "Kordamine: test test test test test test test test.",
+        "Väga pikk tekst: " + "See on pikk testlause. " * 4,
+    ],
+
+    "slovenian": [
+        "Umetna inteligenca hitro spreminja svet.",
+        "Rad se učim novih tehnologij.",
+        "To je testni stavek.",
+        "Številke 12345 morajo biti pravilno obdelane.",
+        "Obdelava naravnega jezika je pomembno področje UI.",
+        "Slovenski posebni znaki: č š ž Č Š Ž",
+        "Številke: ena dve tri štiri pet šest sedem osem devet deset.",
+        "Dolg stavek: " + "beseda " * 40,
+        "Vprašanje: Kako deluje tokenizacija?",
+        "VELIKE ČRKE: TO JE TEST VELIKIH ČRK V SLOVENŠČINI.",
+        "Mešano besedilo: Modeli AI, kot je GPT-4, so zelo zmogljivi.",
+        "Ločila: Zdravo! Kako si? Dobro, hvala.",
+        "Ponavljanje: test test test test test test test test.",
+        "Zelo dolgo besedilo: " + "To je dolg testni stavek. " * 4,
+    ],
+
+    "bulgarian": [
+        "Изкуственият интелект бързо променя света.",
+        "Обичам да уча нови технологии.",
+        "Това е тестово изречение.",
+        "Числата 12345 трябва да се обработват правилно.",
+        "Обработката на естествен език е важна област на ИИ.",
+        "Българска кирилица: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я",
+        "Числа: едно две три четири пет шест седем осем девет десет.",
+        "Дълго изречение: " + "дума " * 40,
+        "Въпрос: Как работи токенизацията?",
+        "ГЛАВНИ БУКВИ: ТОВА Е ТЕСТ НА ГЛАВНИ БУКВИ НА БЪЛГАРСКИ.",
+        "Смесен текст: AI модели като GPT-4 са много мощни.",
+        "Пунктуация: Здравей! Как си? Добре, благодаря.",
+        "Повторение: тест тест тест тест тест тест тест тест.",
+        "Много дълъг текст: " + "Това е дълго тестово изречение. " * 4,
+    ],
+
+    "azerbaijani": [
+        "Süni intellekt dünyanı sürətlə dəyişdirir.",
+        "Yeni texnologiyaları öyrənməyi sevirəm.",
+        "Bu bir test cümləsidir.",
+        "12345 rəqəmləri düzgün işlənməlidir.",
+        "Təbii dilin işlənməsi süni intellektin mühüm sahəsidir.",
+        "Azərbaycan əlifbası: A B C Ç D E Ə F G Ğ H X I İ J K Q L M N O Ö P R S Ş T U Ü V Y Z",
+        "Rəqəmlər: bir iki üç dörd beş altı yeddi səkkiz doqquz on.",
+        "Uzun cümlə: " + "söz " * 40,
+        "Sual: Tokenizasiya necə işləyir?",
+        "BÖYÜK HƏRFLƏR: BU AZƏRBAYCAN DİLİNDƏ BÖYÜK HƏRF TESTIDIR.",
+        "Qarışıq mətn: GPT-4 kimi AI modelləri çox güclüdür.",
+        "Durğu işarələri: Salam! Necəsiniz? Yaxşı, sağ olun.",
+        "Təkrar: test test test test test test test test.",
+        "Çox uzun mətn: " + "Bu uzun bir test cümləsidir. " * 4,
+    ],
+
+    "kazakh": [
+        "Жасанды интеллект әлемді тез өзгертуде.",
+        "Мен жаңа технологияларды үйренуді ұнатамын.",
+        "Бұл сынақ сөйлемі.",
+        "12345 сандары дұрыс өңделуі керек.",
+        "Табиғи тілді өңдеу жасанды интеллекттің маңызды саласы.",
+        "Сандар: бір екі үш төрт бес алты жеті сегіз тоғыз он.",
+        "Ұзын сөйлем: " + "сөз " * 40,
+        "Сұрақ: Токенизация қалай жұмыс істейді?",
+        "Қайталау: тест тест тест тест тест тест тест тест.",
+        "Өте ұзын мәтін: " + "Бұл ұзын сынақ сөйлемі. " * 4,
+    ],
+
+    "uzbek": [
+        "Sun'iy intellekt dunyoni tez o'zgartirmoqda.",
+        "Men yangi texnologiyalarni o'rganishni yaxshi ko'raman.",
+        "Bu sinov gapdir.",
+        "12345 raqamlari to'g'ri qayta ishlanishi kerak.",
+        "Tabiiy tilni qayta ishlash sun'iy intellektning muhim sohasi.",
+        "Raqamlar: bir ikki uch to'rt besh olti yetti sakkiz to'qqiz o'n.",
+        "Uzun gap: " + "so'z " * 40,
+        "Savol: Tokenizatsiya qanday ishlaydi?",
+        "Takrorlash: test test test test test test test test.",
+        "Juda uzun matn: " + "Bu uzun sinov gapi. " * 4,
+    ],
+
+    "belarusian": [
+        "Штучны інтэлект хутка мяняе свет.",
+        "Мне падабаецца вывучаць новыя тэхналогіі.",
+        "Гэта тэставы сказ.",
+        "Лічбы 12345 павінны апрацоўвацца правільна.",
+        "Апрацоўка натуральнай мовы — важная галіна ШІ.",
+        "Беларуская кірыліца: А Б В Г Д Е Ё Ж З І Й К Л М Н О П Р С Т У Ў Ф Х Ц Ч Ш Ы Ь Э Ю Я",
+        "Лічбы: адзін два тры чатыры пяць шэсць сем восем дзевяць дзесяць.",
+        "Доўгі сказ: " + "слова " * 40,
+        "Пытанне: Як працуе токенізацыя?",
+        "Паўтарэнне: тэст тэст тэст тэст тэст тэст тэст тэст.",
+        "Вельмі доўгі тэкст: " + "Гэта доўгі тэставы сказ. " * 4,
+    ],
+
+    "punjabi": [
+        "ਨਕਲੀ ਬੁੱਧੀ ਦੁਨੀਆ ਨੂੰ ਤੇਜ਼ੀ ਨਾਲ ਬਦਲ ਰਹੀ ਹੈ।",
+        "ਮੈਨੂੰ ਨਵੀਆਂ ਤਕਨਾਲੋਜੀਆਂ ਸਿੱਖਣਾ ਪਸੰਦ ਹੈ।",
+        "ਇਹ ਇੱਕ ਪਰੀਖਿਆ ਵਾਕ ਹੈ।",
+        "ਸੰਖਿਆ 12345 ਅਤੇ ਚਿੰਨ੍ਹਾਂ ਨੂੰ ਸਹੀ ਢੰਗ ਨਾਲ ਸੰਭਾਲਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।",
+        "ਕੁਦਰਤੀ ਭਾਸ਼ਾ ਦੀ ਪ੍ਰੋਸੈਸਿੰਗ AI ਦਾ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਖੇਤਰ ਹੈ।",
+        "ਪੰਜਾਬੀ ਅੱਖਰ: ਅ ਆ ਇ ਈ ਉ ਊ ਏ ਐ ਓ ਔ",
+        "ਸੰਖਿਆਵਾਂ: ਇੱਕ ਦੋ ਤਿੰਨ ਚਾਰ ਪੰਜ ਛੇ ਸੱਤ ਅੱਠ ਨੌਂ ਦਸ",
+        "ਲੰਮਾ ਵਾਕ: " + "ਸ਼ਬਦ " * 30,
+        "ਸਵਾਲ: ਟੋਕਨਾਈਜ਼ੇਸ਼ਨ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀ ਹੈ?",
+        "ਦੁਹਰਾਓ: ਪਰੀਖਿਆ ਪਰੀਖਿਆ ਪਰੀਖਿਆ ਪਰੀਖਿਆ ਪਰੀਖਿਆ।",
+        "ਬਹੁਤ ਲੰਮਾ ਪਾਠ: " + "ਇਹ ਇੱਕ ਲੰਮਾ ਪਰੀਖਿਆ ਵਾਕ ਹੈ। " * 4,
+    ],
+
+    "gujarati": [
+        "કૃત્રિમ બુદ્ધિ ઝડપથી વિશ્વ બદલી રહી છે.",
+        "મને નવી ટેકનોલોજી શીખવી ગમે છે.",
+        "આ એક પ્રાયોગિક વાક્ય છે.",
+        "સંખ્યા 12345 અને પ્રતીકો સાચી રીતે સંભાળવા જોઈએ.",
+        "ગુજરાતી અક્ષરો: અ આ ઇ ઈ ઉ ઊ એ ઐ ઓ ઔ",
+        "ગુજરાતી અંક: ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ ૦",
+        "લાંબું વાક્ય: " + "શબ્દ " * 30,
+        "પ્રશ્ન: ટોકનાઇઝેશન કેવી રીતે કામ કરે છે?",
+        "પુનરાવર્તન: પ્રાયોગ પ્રાયોગ પ્રાયોગ પ્રાયોગ પ્રાયોગ।",
+        "ઘણા લાંબો ટેક્સ્ટ: " + "આ એક લાંબું પ્રાયોગ વાક્ય છે. " * 4,
+    ],
+
+    "marathi": [
+        "कृत्रिम बुद्धिमत्ता जगाला वेगाने बदलत आहे.",
+        "मला नवीन तंत्रज्ञान शिकणे आवडते.",
+        "हे एक चाचणी वाक्य आहे.",
+        "संख्या 12345 आणि चिन्हे योग्यरित्या हाताळली पाहिजेत.",
+        "मराठी अक्षरे: अ आ इ ई उ ऊ ए ऐ ओ औ",
+        "संख्या: एक दोन तीन चार पाच सहा सात आठ नऊ दहा",
+        "लांब वाक्य: " + "शब्द " * 30,
+        "प्रश्न: टोकनायझेशन कसे कार्य करते?",
+        "पुनरावृत्ती: चाचणी चाचणी चाचणी चाचणी चाचणी.",
+        "खूप लांब मजकूर: " + "हे एक लांब चाचणी वाक्य आहे. " * 4,
+    ],
+
+    "telugu": [
+        "కృత్రిమ మేధస్సు ప్రపంచాన్ని వేగంగా మారుస్తోంది.",
+        "నాకు కొత్త సాంకేతికతలు నేర్చుకోవడం ఇష్టం.",
+        "ఇది ఒక పరీక్ష వాక్యం.",
+        "సంఖ్యలు 12345 మరియు చిహ్నాలు సరిగ్గా నిర్వహించాలి.",
+        "తెలుగు అక్షరాలు: అ ఆ ఇ ఈ ఉ ఊ ఎ ఏ ఐ ఒ ఓ ఔ",
+        "సంఖ్యలు: ఒకటి రెండు మూడు నాలుగు అయిదు ఆరు ఏడు ఎనిమిది తొమ్మిది పది",
+        "పొడవైన వాక్యం: " + "పదం " * 30,
+        "ప్రశ్న: టోకనైజేషన్ ఎలా పని చేస్తుంది?",
+        "పునరావృత్తి: పరీక్ష పరీక్ష పరీక్ష పరీక్ష పరీక్ష.",
+        "చాలా పొడవైన వచనం: " + "ఇది ఒక పొడవైన పరీక్ష వాక్యం. " * 4,
+    ],
+
+    "kannada": [
+        "ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಜಗತ್ತನ್ನು ವೇಗವಾಗಿ ಬದಲಾಯಿಸುತ್ತಿದೆ.",
+        "ನನಗೆ ಹೊಸ ತಂತ್ರಜ್ಞಾನ ಕಲಿಯಲು ಇಷ್ಟ.",
+        "ಇದು ಒಂದು ಪರೀಕ್ಷೆ ವಾಕ್ಯ.",
+        "ಸಂಖ್ಯೆಗಳು 12345 ಮತ್ತು ಚಿಹ್ನೆಗಳನ್ನು ಸರಿಯಾಗಿ ನಿರ್ವಹಿಸಬೇಕು.",
+        "ಕನ್ನಡ ಅಕ್ಷರಗಳು: ಅ ಆ ಇ ಈ ಉ ಊ ಎ ಏ ಐ ಒ ಓ ಔ",
+        "ಸಂಖ್ಯೆಗಳು: ಒಂದು ಎರಡು ಮೂರು ನಾಲ್ಕು ಐದು ಆರು ಏಳು ಎಂಟು ಒಂಬತ್ತು ಹತ್ತು",
+        "ದೀರ್ಘ ವಾಕ್ಯ: " + "ಪದ " * 30,
+        "ಪ್ರಶ್ನೆ: ಟೋಕನೈಸೇಶನ್ ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ?",
+        "ಪುನರಾವರ್ತನೆ: ಪರೀಕ್ಷೆ ಪರೀಕ್ಷೆ ಪರೀಕ್ಷೆ ಪರೀಕ್ಷೆ ಪರೀಕ್ಷೆ.",
+        "ತುಂಬಾ ದೀರ್ಘ ಪಠ್ಯ: " + "ಇದು ಒಂದು ದೀರ್ಘ ಪರೀಕ್ಷೆ ವಾಕ್ಯ. " * 4,
+    ],
+
+    "malayalam": [
+        "കൃത്രിമ ബുദ്ധി ലോകത്തെ വേഗത്തിൽ മാറ്റുകയാണ്.",
+        "പുതിയ സാങ്കേതികവിദ്യ പഠിക്കാൻ എനിക്കിഷ്ടമാണ്.",
+        "ഇത് ഒരു പരീക്ഷണ വാക്യമാണ്.",
+        "സംഖ്യകൾ 12345 ശരിയായി കൈകാര്യം ചെയ്യണം.",
+        "മലയാളം അക്ഷരങ്ങൾ: അ ആ ഇ ഈ ഉ ഊ എ ഏ ഐ ഒ ഓ ഔ",
+        "സംഖ്യകൾ: ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച് ആറ് ഏഴ് എട്ട് ഒൻപത് പത്ത്",
+        "നീണ്ട വാക്യം: " + "വാക്ക് " * 30,
+        "ചോദ്യം: ടോക്കനൈസേഷൻ എങ്ങനെ പ്രവർത്തിക്കുന്നു?",
+        "ആവർത്തനം: പരീക്ഷ പരീക്ഷ പരീക്ഷ പരീക്ഷ പരീക്ഷ.",
+        "വളരെ നീണ്ട ടെക്സ്റ്റ്: " + "ഇത് ഒരു നീണ്ട പരീക്ഷണ വാക്യമാണ്. " * 4,
+    ],
+
+    "hausa": [
+        "Wucin gadi yana canza duniya cikin sauri.",
+        "Ina son koyon sabbin fasahohi.",
+        "Wannan jimlah gwaji ce.",
+        "Lambobi 12345 dole ne a sarrafa su daidai.",
+        "Sarrafa harshe na yanayi muhimmin fanni ne na AI.",
+        "Lambobi: ɗaya biyu uku huɗu biyar shida bakwai takwas tara goma.",
+        "Dogon jimla: " + "kalma " * 30,
+        "Tambaya: Yaya tokenization ke aiki?",
+        "Maimaita: gwaji gwaji gwaji gwaji gwaji gwaji gwaji gwaji.",
+        "Rubutu mai tsawo sosai: " + "Wannan jimla ce mai tsawo don gwaji. " * 4,
+    ],
+
+    "yoruba": [
+        "Àwọn ẹ̀rọ AI gẹ́gẹ́ bi GPT-4 jẹ́ alágbára púpọ̀.",
+        "Ọgbọn atọwọda n yi agbaye pada ni kiakia.",
+        "Mo fẹ́ kọ àwọn imọ̀-ẹrọ tuntun.",
+        "Gbólóhùn idanwo yii ni.",
+        "Àwọn nọ́mbà 12345 gbọdọ̀ ṣe àṣà daradara.",
+        "Àwọn nọ́mbà: ọkan meji meta mẹrin marun-ún mẹfa mẹjọ mẹsan mẹwa.",
+        "Gbólóhùn gígùn: " + "ọrọ " * 30,
+        "Ìbéèrè: Báwo ni tokenization ṣe ń ṣiṣẹ?",
+        "Ìtúnpọ̀: idanwo idanwo idanwo idanwo idanwo idanwo idanwo.",
+        "Ọ̀rọ̀ tó gùn gan-an: " + "Gbólóhùn idanwo gígùn yii ni. " * 4,
+    ],
+
+    "esperanto": [
+        "Artefarita inteligenteco rapide ŝanĝas la mondon.",
+        "Mi ŝatas lerni novajn teknologiojn.",
+        "Ĉi tio estas testa frazo.",
+        "Nombroj 12345 devas esti ĝuste traktataj.",
+        "Natura lingvopretigo estas grava fako de AI.",
+        "Specialaj literoj: ĉ ĝ ĥ ĵ ŝ ŭ Ĉ Ĝ Ĥ Ĵ Ŝ Ŭ",
+        "Nombroj: unu du tri kvar kvin ses sep ok naŭ dek.",
+        "Longa frazo: " + "vorto " * 40,
+        "Demando: Kiel funkcias la ĵetonigo?",
+        "Ripeto: testo testo testo testo testo testo testo testo.",
+        "Tre longa teksto: " + "Ĉi tio estas longa testa frazo. " * 4,
+    ],
+
+    "latin": [
+        "Intelligentia artificialis mundum celeriter mutat.",
+        "Discere novas technologias mihi placet.",
+        "Haec est sententia probatoria.",
+        "Numeri 12345 recte tractandi sunt.",
+        "Sententia longa: " + "verbum " * 40,
+        "Quaestio: Quomodo functio tokenizationis operatur?",
+        "Carmina: Gallia est omnis divisa in partes tres.",
+        "Caesar: Veni vidi vici.",
+        "Cogito ergo sum. Carpe diem! Memento mori.",
+        "Textus longissimus: " + "Haec est sententia probatoria longa. " * 4,
+    ],
+
+    "tagalog": [
+        "Ang mga modelo ng AI tulad ng GPT-4 ay napaka-kapaki-pakinabang.",
+        "Ang artipisyal na katalinuhan ay mabilis na binabago ang mundo.",
+        "Gusto kong matuto ng mga bagong teknolohiya.",
+        "Ito ay isang pagsubok na pangungusap.",
+        "Ang mga numero 12345 ay dapat na wastong mapamahalaan.",
+        "Mga numero: isa dalawa tatlo apat lima anim pito walo siyam sampu.",
+        "Mahabang pangungusap: " + "salita " * 40,
+        "Tanong: Paano gumagana ang tokenization?",
+        "Pag-ulit: pagsubok pagsubok pagsubok pagsubok pagsubok.",
+        "Napakahaba: " + "Ito ay isang mahabang pangungusap para sa pagsubok. " * 4,
+    ],
+
+    "cebuano": [
+        "Ang mga AI model sama sa GPT-4 kay bali-bali ka-gana.",
+        "Ang artipisyal nga intelihensiya nagbag-o sa kalibutan.",
+        "Ganahan ko magtuon ug bag-ong teknolohiya.",
+        "Kini usa ka pagsulay nga pangungusap.",
+        "Ang mga numero nga 12345 kinahanglan nga iproseso sa husto.",
+        "Mga numero: usa duha tulo upat lima unom pito walo siyam napulo.",
+        "Dugay nga pangungusap: " + "pulong " * 30,
+        "Pangutana: Giunsa ang pagtrabaho sa tokenization?",
+        "Pag-usab-usab: pagsulay pagsulay pagsulay pagsulay pagsulay.",
+        "Taas kaayo nga teksto: " + "Kini usa ka taas nga pangungusap sa pagsulay. " * 4,
+    ],
+
+    "javanese": [
+        "Model AI kaya GPT-4 iku pancen apik banget kanggo maneka tugas.",
+        "Kecerdasan buatan ngowahi jagad kanthi cepet.",
+        "Aku seneng sinau teknologi anyar.",
+        "Iki ukara tes.",
+        "Angka 12345 kudu diproses kanthi bener.",
+        "Angka: siji loro telu papat lima enem pitu wolu songo sepuluh.",
+        "Ukara dawa: " + "tembung " * 30,
+        "Pitakon: Kepiye tokenization bisa mlaku?",
+        "Mbaleni: tes tes tes tes tes tes tes tes tes tes.",
+        "Teks dawa banget: " + "Iki ukara tes sing dawa. " * 4,
+    ],
+
+    "luxembourgish": [
+        "Kënschtlech Intelligenz ännert d'Welt séier.",
+        "Ech léieren gär nei Technologien.",
+        "Dat ass e Testsaz.",
+        "Zuelen 12345 musse richteg beaarbecht ginn.",
+        "Lëtzebuergesch Zeechen: ä ë ü â ê î ô û",
+        "Zuelen: eng zwou dräi véier fënnef sechs siwen aacht néng zéng.",
+        "Laange Saz: " + "Wuert " * 40,
+        "Fro: Wéi fonctionéiert d'Tokenisatioun?",
+        "Widderhuelung: Test Test Test Test Test Test Test Test.",
+        "Ganz laangen Text: " + "Dat ass e laange Testsaz. " * 4,
+    ],
+
+    "maltese": [
+        "L-intelliġenza artifiċjali qed tibdel id-dinja b'mod mgħaġġel.",
+        "Inħobb nitgħallem teknoloġiji ġodda.",
+        "Din hija sentenza ta' ttestjar.",
+        "In-numri 12345 għandhom jiġu ttrattati b'mod korrett.",
+        "Karatteristiċi Maltin: ċ ġ għ ħ ie ż",
+        "Numri: wieħed tnejn tlieta erbgħa ħamsa sitta sebgħa tmienja disgħa għaxra.",
+        "Sentenza twila: " + "kelma " * 40,
+        "Mistoqsija: Kif jaħdem it-tokenization?",
+        "Repetizzjoni: test test test test test test test test.",
+        "Test twil ħafna: " + "Din hija sentenza ta' ttestjar twila. " * 4,
+    ],
+
+    "occitan": [
+        "Los modèls d'IA coma GPT-4 son fòrça performants.",
+        "L'intelligéncia artificiala cambia lo mond rapidament.",
+        "M'agrada apréner de nòvas tecnologias.",
+        "Aquò es una frasa de tèst.",
+        "Los nombres 12345 cal que sián tractats corrèctament.",
+        "Nombres: un dos tres quatre cinc sièis sèt uèch nòu dètz.",
+        "Frasa longa: " + "mot " * 40,
+        "Question: Cossí fonciona la tokenizacion?",
+        "Repeticion: tèst tèst tèst tèst tèst tèst tèst tèst.",
+        "Tèxt fòrt long: " + "Aquò es una frasa de tèst longa. " * 4,
+    ],
+
+    "scots_gaelic": [
+        "Tha eanchainn fuadain ag atharrachadh an t-saoghail gu luath.",
+        "Is toil leam ionnsachadh mu theicneòlasan ùra.",
+        "Seo seantans dearbhaidh.",
+        "Feumaidh àireamhan 12345 a bhith air an làimhseachadh gu ceart.",
+        "Litrichean Gàidhlig: à â è é ì î ò ó ù û",
+        "Àireamhan: aon dhà trì ceithir còig sia seachd ochd naoi deich.",
+        "Seantans fada: " + "facal " * 40,
+        "Ceist: Ciamar a tha tokenization ag obair?",
+        "Ath-aithris: dearbhadh dearbhadh dearbhadh dearbhadh dearbhadh.",
+        "Teacsa ro fhada: " + "Seo seantans dearbhaidh fada. " * 4,
+    ],
+
 }
