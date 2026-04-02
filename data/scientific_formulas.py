@@ -1,95 +1,372 @@
-dataset = {
-    "math_science": {
+math_science_short = {
 
-        "algebra": [
-            "x² + y² = z²",
-            "(a + b)³ = a³ + 3a²b + 3ab² + b³",
-            "f(x) = sin(x) + log(x)",
-            "ax² + bx + c = 0"
-        ],
+    "algebra": [
+        "x² + y² = z²",
+        "(a + b)³ = a³ + 3a²b + 3ab² + b³",
+        "f(x) = sin(x) + log(x)",
+        "ax² + bx + c = 0"
+    ],
 
-        "calculus": [
-            "lim(x→∞) 1/x = 0",
-            "∫₀¹ x² dx = 1/3",
-            "d/dx (x²) = 2x",
-            "∂²u/∂x²"
-        ],
+    "calculus": [
+        "lim(x→∞) 1/x = 0",
+        "∫₀¹ x² dx = 1/3",
+        "d/dx (x²) = 2x",
+        "∂²u/∂x²"
+    ],
 
-        "physics": [
-            "E = mc²",
-            "F = ma",
-            "v = u + at",
-            "p = mv"
-        ],
+    "physics": [
+        "E = mc²",
+        "F = ma",
+        "v = u + at",
+        "p = mv"
+    ],
 
-        "chemistry": [
-            "H₂O + CO₂ → H₂CO₃",
-            "NaCl → Na⁺ + Cl⁻",
-            "pH = -log[H⁺]",
-            "CH₄ + 2O₂ → CO₂ + 2H₂O"
-        ],
+    "chemistry": [
+        "H₂O + CO₂ → H₂CO₃",
+        "NaCl → Na⁺ + Cl⁻",
+        "pH = -log[H⁺]",
+        "CH₄ + 2O₂ → CO₂ + 2H₂O"
+    ],
 
-        "symbols_edge_cases": [
-            "∑(i=1 to n) i²",
-            "α, β, γ, δ",
-            "∞ ≠ NaN",
-            "≈ ≠ ≤ ≥ ±"
-        ],
+    "symbols_edge_cases": [
+        "∑(i=1 to n) i²",
+        "α, β, γ, δ",
+        "∞ ≠ NaN",
+        "≈ ≠ ≤ ≥ ±"
+    ],
 
-        "advanced_algebra": [
-            "(x + y + z)^2 = x^2 + y^2 + z^2 + 2xy + 2yz + 2zx",
-            "det(A) = λ₁λ₂λ₃",
-            "Ax = b",
-            "rank(A) ≤ min(m,n)"
-        ],
+    "advanced_algebra": [
+        "(x + y + z)^2 = x^2 + y^2 + z^2 + 2xy + 2yz + 2zx",
+        "det(A) = λ₁λ₂λ₃",
+        "Ax = b",
+        "rank(A) ≤ min(m,n)"
+    ],
 
-        "linear_algebra": [
-            "A ∈ ℝ^{m×n}",
-            "||x||₂ = √(x₁² + x₂²)",
-            "xᵀAx ≥ 0",
-            "A⁻¹A = I"
-        ],
+    "linear_algebra": [
+        "A ∈ ℝ^{m×n}",
+        "||x||₂ = √(x₁² + x₂²)",
+        "xᵀAx ≥ 0",
+        "A⁻¹A = I"
+    ],
 
-        "probability_stats": [
-            "P(A|B) = P(A∩B)/P(B)",
-            "E[X] = ∑ xP(x)",
-            "Var(X) = E[X²] - (E[X])²",
-            "N(μ, σ²)"
-        ],
+    "probability_stats": [
+        "P(A|B) = P(A∩B)/P(B)",
+        "E[X] = ∑ xP(x)",
+        "Var(X) = E[X²] - (E[X])²",
+        "N(μ, σ²)"
+    ],
 
-        "information_theory": [
-            "H(X) = -∑ p(x) log p(x)",
-            "KL(P||Q) = ∑ P(x) log(P(x)/Q(x))",
-            "I(X;Y) = H(X) - H(X|Y)",
-            "CrossEntropy = -∑ y log(ŷ)"
-        ],
+    "information_theory": [
+        "H(X) = -∑ p(x) log p(x)",
+        "KL(P||Q) = ∑ P(x) log(P(x)/Q(x))",
+        "I(X;Y) = H(X) - H(X|Y)",
+        "CrossEntropy = -∑ y log(ŷ)"
+    ],
 
-        "advanced_physics": [
-            "∇·E = ρ/ε₀",
-            "∇×B = μ₀J + μ₀ε₀ ∂E/∂t",
-            "ψ(x,t) = Ae^{i(kx - ωt)}",
-            "ℏω = E"
-        ],
+    "advanced_physics": [
+        "∇·E = ρ/ε₀",
+        "∇×B = μ₀J + μ₀ε₀ ∂E/∂t",
+        "ψ(x,t) = Ae^{i(kx - ωt)}",
+        "ℏω = E"
+    ],
 
-        "quantum": [
-            "|ψ⟩ = α|0⟩ + β|1⟩",
-            "⟨ψ|ψ⟩ = 1",
-            "H|ψ⟩ = E|ψ⟩",
-            "σₓ, σᵧ, σ_z"
-        ],
+    "quantum": [
+        "|ψ⟩ = α|0⟩ + β|1⟩",
+        "⟨ψ|ψ⟩ = 1",
+        "H|ψ⟩ = E|ψ⟩",
+        "σₓ, σᵧ, σ_z"
+    ],
 
-        "chemistry_advanced": [
-            "ΔG = ΔH - TΔS",
-            "K_eq = [C]^c[D]^d / [A]^a[B]^b",
-            "PV = nRT",
-            "E° = E°_cathode - E°_anode"
-        ],
+    "chemistry_advanced": [
+        "ΔG = ΔH - TΔS",
+        "K_eq = [C]^c[D]^d / [A]^a[B]^b",
+        "PV = nRT",
+        "E° = E°_cathode - E°_anode"
+    ],
 
-        "mixed_extreme": [
-            "∫ e^{-x^2} dx ≈ √π",
-            "lim(x→0) sin(x)/x = 1",
-            "Γ(n) = (n-1)!",
-            "ζ(s) = ∑ 1/n^s"
-        ]
-    }
+    "mixed_extreme": [
+        "∫ e^{-x^2} dx ≈ √π",
+        "lim(x→0) sin(x)/x = 1",
+        "Γ(n) = (n-1)!",
+        "ζ(s) = ∑ 1/n^s"
+    ]
+}
+
+scientific_formulas_full = {
+
+    "algebra": [
+        "x² + y² = z²",
+        "(a + b)³ = a³ + 3a²b + 3ab² + b³",
+        "f(x) = sin(x) + log(x)",
+        "ax² + bx + c = 0",
+        "x = (-b ± √(b² - 4ac)) / 2a",
+        "(x + y + z)² = x² + y² + z² + 2xy + 2yz + 2zx",
+        "aⁿ · aᵐ = aⁿ⁺ᵐ",
+        "log_b(xy) = log_b(x) + log_b(y)",
+        "(a - b)(a + b) = a² - b²",
+        "∑ᵢ₌₁ⁿ i = n(n+1)/2",
+        "n! = n · (n-1) · (n-2) · ... · 2 · 1",
+        "C(n,r) = n! / (r!(n-r)!)",
+        "|x| = { x if x ≥ 0; -x if x < 0 }",
+        "gcd(a,b) · lcm(a,b) = |a · b|",
+        "a ≡ b (mod n) ⟺ n | (a - b)",
+        "Fibonacci: F_n = F_{n-1} + F_{n-2}, F_0=0, F_1=1",
+        "Golden ratio: φ = (1 + √5)/2 ≈ 1.618033988...",
+        "e^(iπ) + 1 = 0  (Euler's identity)",
+        "log(ab) = log(a) + log(b), log(a/b) = log(a) - log(b)",
+        "∏ᵢ₌₁ⁿ i = n!",
+    ],
+
+    "calculus": [
+        "lim(x→∞) 1/x = 0",
+        "∫₀¹ x² dx = 1/3",
+        "d/dx (x²) = 2x",
+        "∂²u/∂x²",
+        "lim(x→0) sin(x)/x = 1",
+        "d/dx[f(g(x))] = f'(g(x)) · g'(x)  (chain rule)",
+        "∫ u dv = uv - ∫ v du  (integration by parts)",
+        "∫₋∞^∞ e^{-x²} dx = √π",
+        "Taylor series: f(x) = ∑ₙ₌₀^∞ f⁽ⁿ⁾(a)/n! · (x-a)ⁿ",
+        "Fourier transform: F̂(ω) = ∫₋∞^∞ f(t) e^{-iωt} dt",
+        "∮_C f(z) dz = 2πi ∑ Res(f, zₖ)  (residue theorem)",
+        "∇f = (∂f/∂x, ∂f/∂y, ∂f/∂z)",
+        "∫∫∫_V (∇·F) dV = ∮∮_S F·dS  (divergence theorem)",
+        "d/dx [arctan(x)] = 1/(1+x²)",
+        "∫ 1/x dx = ln|x| + C",
+        "d/dx [eˣ] = eˣ",
+        "∫₀^π sin(x) dx = 2",
+        "∂f/∂x|_{y=const} = lim_{h→0} [f(x+h,y) - f(x,y)]/h",
+        "Stokes' theorem: ∮_∂S F·dr = ∫∫_S (∇×F)·dS",
+        "lim_{n→∞} (1 + 1/n)ⁿ = e",
+    ],
+
+    "physics": [
+        "E = mc²",
+        "F = ma",
+        "v = u + at",
+        "p = mv",
+        "KE = ½mv²",
+        "PE = mgh",
+        "W = F·d·cos(θ)",
+        "P = W/t = F·v",
+        "η = W_out/W_in × 100%",
+        "T = 2π√(L/g)  (pendulum period)",
+        "v² = u² + 2as",
+        "s = ut + ½at²",
+        "Hooke's law: F = -kx",
+        "Ohm's law: V = IR",
+        "P = IV = I²R = V²/R",
+        "Kirchhoff's voltage law: ∑V = 0",
+        "Kirchhoff's current law: ∑I = 0",
+        "Lorentz force: F = q(E + v×B)",
+        "Faraday's law: ε = -dΦ_B/dt",
+        "c = λf (wave speed)",
+        "ℏω = E (photon energy)",
+        "de Broglie: λ = h/p",
+        "Snell's law: n₁sin(θ₁) = n₂sin(θ₂)",
+        "Bernoulli: P + ½ρv² + ρgh = const",
+    ],
+
+    "maxwell_equations": [
+        "∇·E = ρ/ε₀  (Gauss's law)",
+        "∇·B = 0  (no magnetic monopoles)",
+        "∇×E = -∂B/∂t  (Faraday's law)",
+        "∇×B = μ₀J + μ₀ε₀ ∂E/∂t  (Ampere-Maxwell law)",
+        "The speed of light: c = 1/√(μ₀ε₀)",
+        "ε₀ = 8.854×10⁻¹² F/m",
+        "μ₀ = 4π×10⁻⁷ H/m",
+        "Wave equation: ∇²E - (1/c²)∂²E/∂t² = 0",
+        "Poynting vector: S = E×H",
+        "Energy density: u = (ε₀E² + B²/μ₀)/2",
+    ],
+
+    "chemistry": [
+        "H₂O + CO₂ → H₂CO₃",
+        "NaCl → Na⁺ + Cl⁻",
+        "pH = -log[H⁺]",
+        "CH₄ + 2O₂ → CO₂ + 2H₂O",
+        "ΔG = ΔH - TΔS",
+        "K_eq = [C]^c[D]^d / [A]^a[B]^b",
+        "PV = nRT  (ideal gas law)",
+        "E° = E°_cathode - E°_anode",
+        "ΔG° = -nFE° = -RT ln(K)",
+        "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA])",
+        "Arrhenius equation: k = Ae^{-Ea/RT}",
+        "Beer-Lambert law: A = εlc",
+        "Nernst equation: E = E° - (RT/nF) ln Q",
+        "Clausius-Clapeyron: d(ln P)/dT = ΔH_vap/(RT²)",
+        "Michaelis-Menten: v = V_max[S]/(K_m + [S])",
+        "Raoult's law: P_i = x_i P_i*",
+        "Graham's law: rate₁/rate₂ = √(M₂/M₁)",
+        "Gibbs phase rule: F = C - P + 2",
+        "ΔS = Q_rev/T  (entropy)",
+        "van der Waals: (P + a/V²)(V - b) = RT",
+    ],
+
+    "linear_algebra": [
+        "A ∈ ℝ^{m×n}",
+        "||x||₂ = √(x₁² + x₂²)",
+        "xᵀAx ≥ 0",
+        "A⁻¹A = I",
+        "det(A) = λ₁λ₂λ₃",
+        "Ax = b",
+        "rank(A) ≤ min(m,n)",
+        "Av = λv  (eigenvalue equation)",
+        "A = UΣVᵀ  (SVD)",
+        "||A||_F = √(∑ᵢⱼ aᵢⱼ²)  (Frobenius norm)",
+        "trace(A) = ∑ᵢ aᵢᵢ = ∑ᵢ λᵢ",
+        "det(AB) = det(A)det(B)",
+        "(AB)ᵀ = BᵀAᵀ",
+        "Projection: P = A(AᵀA)⁻¹Aᵀ",
+        "A = QR  (QR decomposition)",
+        "A = LU  (LU decomposition)",
+        "null(A) = {x : Ax = 0}",
+        "col(A) = {Ax : x ∈ ℝⁿ}",
+        "dim(null(A)) + rank(A) = n  (rank-nullity theorem)",
+        "Inner product: ⟨u,v⟩ = uᵀv",
+    ],
+
+    "probability_stats": [
+        "P(A|B) = P(A∩B)/P(B)",
+        "E[X] = ∑ xP(x)",
+        "Var(X) = E[X²] - (E[X])²",
+        "N(μ, σ²)",
+        "P(A∪B) = P(A) + P(B) - P(A∩B)",
+        "Bayes: P(A|B) = P(B|A)P(A)/P(B)",
+        "CLT: (X̄ - μ)/(σ/√n) → N(0,1)",
+        "Chebyshev: P(|X-μ| ≥ kσ) ≤ 1/k²",
+        "Moment generating function: M_X(t) = E[e^{tX}]",
+        "Covariance: Cov(X,Y) = E[XY] - E[X]E[Y]",
+        "Pearson correlation: ρ = Cov(X,Y)/(σ_X σ_Y)",
+        "Poisson: P(X=k) = λᵏe^{-λ}/k!",
+        "Binomial: P(X=k) = C(n,k)pᵏ(1-p)^{n-k}",
+        "Normal PDF: f(x) = (1/σ√(2π)) exp(-(x-μ)²/2σ²)",
+        "t-statistic: t = (X̄ - μ)/(s/√n)",
+        "Chi-squared: χ² = ∑(O-E)²/E",
+        "F-statistic: F = (SS_between/df₁)/(SS_within/df₂)",
+        "Confidence interval: X̄ ± z_{α/2} · σ/√n",
+        "p-value = P(test statistic ≥ observed | H₀ true)",
+        "Power = P(reject H₀ | H₁ true) = 1 - β",
+    ],
+
+    "information_theory": [
+        "H(X) = -∑ p(x) log p(x)",
+        "KL(P||Q) = ∑ P(x) log(P(x)/Q(x))",
+        "I(X;Y) = H(X) - H(X|Y)",
+        "CrossEntropy = -∑ y log(ŷ)",
+        "H(X,Y) = H(X) + H(Y|X)",
+        "I(X;Y) = H(X) + H(Y) - H(X,Y)",
+        "Channel capacity: C = max_{p(x)} I(X;Y)",
+        "Shannon's theorem: C = B log₂(1 + S/N)",
+        "Perplexity: PP(W) = P(w₁,...,wₙ)^{-1/n}",
+        "Kolmogorov complexity: K(x) ≈ min program length",
+        "Huffman coding achieves H(X) ≤ L < H(X) + 1",
+        "Rate-distortion: R(D) = min_{p(x̂|x)} I(X;X̂)",
+        "Fisher information: I(θ) = E[(∂/∂θ log p(x;θ))²]",
+        "Cramér-Rao bound: Var(θ̂) ≥ 1/I(θ)",
+        "Entropy rate: H(𝒳) = lim_{n→∞} H(X₁,...,Xₙ)/n",
+    ],
+
+    "quantum": [
+        "|ψ⟩ = α|0⟩ + β|1⟩",
+        "⟨ψ|ψ⟩ = 1",
+        "H|ψ⟩ = E|ψ⟩",
+        "σₓ, σᵧ, σ_z",
+        "Schrödinger equation: iℏ ∂|ψ⟩/∂t = Ĥ|ψ⟩",
+        "Heisenberg uncertainty: ΔxΔp ≥ ℏ/2",
+        "Bell state: |Φ⁺⟩ = (|00⟩ + |11⟩)/√2",
+        "Hadamard gate: H = (1/√2) [[1,1],[1,-1]]",
+        "CNOT gate: |control,target⟩ → |control, control⊕target⟩",
+        "Quantum Fourier transform: |j⟩ → (1/√N) ∑_k e^{2πijk/N}|k⟩",
+        "Grover's algorithm: O(√N) vs O(N) classical",
+        "Shor's algorithm: factoring in O((log N)³)",
+        "Bloch sphere: |ψ⟩ = cos(θ/2)|0⟩ + e^{iφ}sin(θ/2)|1⟩",
+        "Density matrix: ρ = ∑_i pᵢ|ψᵢ⟩⟨ψᵢ|",
+        "Von Neumann entropy: S(ρ) = -Tr(ρ log ρ)",
+        "Measurement postulate: P(λ) = ⟨ψ|P_λ|ψ⟩",
+        "[X̂, P̂] = iℏ  (canonical commutation relation)",
+        "Path integral: ⟨x_f|e^{-iHt/ℏ}|x_i⟩ = ∫ 𝒟[x(t)] e^{iS/ℏ}",
+    ],
+
+    "machine_learning": [
+        "Loss: L(θ) = -(1/N)∑ᵢ [yᵢ log(ŷᵢ) + (1-yᵢ)log(1-ŷᵢ)]",
+        "Gradient descent: θ ← θ - η∇L(θ)",
+        "Backprop: ∂L/∂wᵢⱼ = ∂L/∂aⱼ · ∂aⱼ/∂wᵢⱼ",
+        "Attention: Attn(Q,K,V) = softmax(QKᵀ/√dₖ)V",
+        "Softmax: σ(z)ᵢ = eᶻⁱ / ∑ⱼ eᶻʲ",
+        "ReLU: f(x) = max(0, x)",
+        "BatchNorm: x̂ = (x - μ_B)/√(σ_B² + ε); y = γx̂ + β",
+        "Dropout: x̃ = x·Bernoulli(p)/p during training",
+        "Adam: mₜ = β₁mₜ₋₁ + (1-β₁)gₜ; vₜ = β₂vₜ₋₁ + (1-β₂)gₜ²",
+        "LoRA: W = W₀ + ΔW = W₀ + BA, B ∈ ℝ^{d×r}, A ∈ ℝ^{r×k}",
+        "Perplexity: PP = exp(-1/N ∑ log P(wᵢ|w<ᵢ))",
+        "BLEU = BP · exp(∑ wₙ log pₙ)",
+        "F1 = 2PR/(P+R); P = TP/(TP+FP); R = TP/(TP+FN)",
+        "KL divergence regularization: L_VAE = E[log p(x|z)] - KL(q(z|x)||p(z))",
+        "Contrastive loss: L = -log(e^{sim(z,z⁺)/τ} / ∑ₖ e^{sim(z,zₖ)/τ})",
+        "REINFORCE: ∇L = E_τ[∑ₜ ∇log π(aₜ|sₜ)·R(τ)]",
+        "Bellman equation: Q(s,a) = r + γ max_{a'} Q(s',a')",
+        "Policy gradient: ∇J(θ) = E_π[∇log π(a|s)·Q(s,a)]",
+        "Actor-critic: L = -log π(aₜ|sₜ)·Aₜ + c₁L_value - c₂H(π)",
+        "Transformer FFN: FFN(x) = W₂ max(0, W₁x + b₁) + b₂",
+    ],
+
+    "symbols_edge_cases": [
+        "∑(i=1 to n) i²",
+        "α, β, γ, δ",
+        "∞ ≠ NaN",
+        "≈ ≠ ≤ ≥ ±",
+        "ℝ ℕ ℤ ℚ ℂ ℍ 𝔽_q",
+        "∀x ∈ ℝ, ∃y > x : y² > x",
+        "∃! (exists unique), ∄ (not exists)",
+        "∅ ⊆ A ⊆ ℝ",
+        "A × B = {(a,b) : a∈A, b∈B}",
+        "f: A → B, g: B → C, g∘f: A → C",
+        "⌊x⌋ = floor(x), ⌈x⌉ = ceil(x), {x} = x - ⌊x⌋",
+        "∫∫∫ dx dy dz, ∮, ∯, ∰",
+        "⊕ ⊗ ⊙ ⊛ ⊜ ⊝",
+        "→ ← ↑ ↓ ↔ ↕ ⇒ ⇐ ⇔",
+        "∧ ∨ ¬ ⊻ ⊤ ⊥",
+        "Ω ω Θ θ Φ φ Ψ ψ Λ λ Π π Σ σ Γ γ Δ δ",
+        "ℏ = h/(2π) ≈ 1.055×10⁻³⁴ J·s",
+        "N_A ≈ 6.022×10²³ mol⁻¹ (Avogadro's number)",
+        "k_B ≈ 1.380×10⁻²³ J/K (Boltzmann constant)",
+        "G ≈ 6.674×10⁻¹¹ N·m²/kg² (gravitational constant)",
+    ],
+
+    "latex_notation": [
+        r"\frac{d}{dx}\left[\sin(x)\right] = \cos(x)",
+        r"\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}",
+        r"\sum_{n=0}^{\infty} \frac{x^n}{n!} = e^x",
+        r"\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n = e",
+        r"\hat{y} = \sigma\left(\mathbf{W}\mathbf{x} + \mathbf{b}\right)",
+        r"\mathcal{L}(\theta) = -\frac{1}{N}\sum_{i=1}^{N} \log p(y_i | x_i; \theta)",
+        r"\nabla_\theta \mathcal{L} = \mathbb{E}_{(x,y) \sim \mathcal{D}}\left[\nabla_\theta \log p(y|x;\theta)\right]",
+        r"\text{Attention}(Q, K, V) = \text{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}\right)V",
+        r"P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B)}",
+        r"\mathbf{A} = \mathbf{U}\boldsymbol{\Sigma}\mathbf{V}^\top",
+        r"\|\mathbf{x}\|_p = \left(\sum_{i=1}^n |x_i|^p\right)^{1/p}",
+        r"\text{KL}(P \| Q) = \sum_x P(x) \log \frac{P(x)}{Q(x)}",
+        r"\binom{n}{k} = \frac{n!}{k!\,(n-k)!}",
+        r"\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S}",
+        r"\boxed{E = mc^2}",
+    ],
+
+    "mixed_extreme": [
+        "∫ e^{-x^2} dx ≈ √π",
+        "lim(x→0) sin(x)/x = 1",
+        "Γ(n) = (n-1)!",
+        "ζ(s) = ∑ 1/n^s",
+        "Riemann hypothesis: all non-trivial zeros of ζ(s) have Re(s) = 1/2",
+        "P vs NP: is every problem verifiable in polynomial time also solvable in polynomial time?",
+        "Navier-Stokes: ρ(∂v/∂t + v·∇v) = -∇p + μ∇²v + f",
+        "Yang-Mills: D_μF^{μν} = J^ν, where F_{μν} = ∂_μA_ν - ∂_νA_μ + g[A_μ,A_ν]",
+        "Einstein field equations: G_μν + Λg_μν = 8πG/c⁴ · T_μν",
+        "Dirac equation: (iγᵘ∂ᵤ - m)ψ = 0",
+        "Standard Model Lagrangian: ℒ_SM = -¼F_μνFᵘᵛ + iψ̄D̸ψ + |D_μH|² - V(H) + ψ_iY_ijψ_jH",
+        "AdS/CFT: Z_bulk[φ₀] = ⟨exp(∫ φ₀𝒪)⟩_CFT",
+        "Black hole entropy: S = kc³A/(4Gℏ) = A/4 (in Planck units)",
+        "de Sitter space: ds² = -(1-r²/l²)dt² + dr²/(1-r²/l²) + r²dΩ²",
+        "Euler's product formula: ζ(s) = ∏_p 1/(1-p^{-s})",
+    ],
 }
