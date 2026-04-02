@@ -1,17 +1,17 @@
 # TokenizerBench
 This dataset is designed to evaluate tokenizer performance across before you use it for model pre-training/finetuning:
 
-🌍 Human languages (multilingual + scripts)
-💻 Programming languages (syntax-heavy)
-🧮 Math & science expressions (symbols, unicode, formulas)
+- 🌍 Human languages (multilingual + scripts)
+- 💻 Programming languages (syntax-heavy)
+- 🧮 Math & science expressions (symbols, unicode, formulas)
 
 ## 🎯 Goal
 This dataset helps evaluate:
 
-Multilingual tokenization quality
-Code token handling
-Mathematical symbol parsing
-Robustness to noisy and mixed inputs
+- Multilingual tokenization quality
+- Code token handling
+- Mathematical symbol parsing
+- Robustness to noisy and mixed inputs
 
 ---
 
@@ -24,6 +24,7 @@ data/
 ├── human_languages.py
 ├── programming_languages.py
 ├── scientific_formulas.py
+├── edge_cases.py
 ```
 
 Each file contains structured dictionaries that can be directly imported and used for tokenizer evaluation.
