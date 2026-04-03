@@ -34,9 +34,9 @@ Each file contains structured dictionaries that can be directly imported and use
 ### 📥 1. Import the Dataset
 
 ```python
-from data.human_languages import human_languages
-from data.programming_languages import programming_languages
-from data.scientific_formulas import scientific_formulas
+from tokenizerbench.data.human_languages import human_languages
+from tokenizerbench.data.programming_languages import programming_languages
+from tokenizerbench.data.scientific_formulas import scientific_formulas
 ```
 
 ---
